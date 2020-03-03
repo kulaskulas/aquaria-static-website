@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Aqua</title>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!-- Owl Stylesheets -->
+<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style type="text/css">
+	@media only screen and (max-width: 1024px) {
+	
+}
+
+.carousel-wrap
+{
+	padding: 0px 20px 0px 20px; 
+}
+
+@media only screen and (max-width: 664px) {
+	.btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: 3%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 190px;
+		height: 50px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.right-arrow
+	{
+		width: 50px; 
+	}
+	.abt-title
+	{
+		margin-top: -3px;
+		font-size: 10px;
+	}
+
+	.l-right-arrow
+	{
+		width: 50px;
+	}
+	.l-title
+	{
+		margin-top: 2px;
+		font-size: 10px;
+	}
+
+	.btn-lwb
+	{
+		z-index: 1;
+		position: absolute;
+		top: 84%;
+		left: 11%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 280px;
+		height: 80px;
+		background: #ffffff;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.lwb-title
+	{
+		font-family: Gotham-font;
+		font-weight: lighter;
+		margin-top: 20px;
+		margin-left: -18px;
+		font-size: 18px;
+		line-height: 7px;
+	}
+
+	.btn-vg
+	{
+		z-index: 1;
+		position: absolute;
+		top: 100%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 280px;
+		height: 50px;
+		background: #ffffff;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.vg-title
+	{
+		font-family: Gotham-font;
+		font-weight: lighter;
+		margin-top: 2px;
+		font-size: 10px;
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+	<!-- Main Header / Header Style Four -->
+    <header class="main-header header-style-three">
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container clearfix">
+				<!--Info-->
+				<div class="logo-outer logo-inner">
+					<div class="logo lg">
+                    	<a href="index.html">
+                    		<img src="images/logo/aquaria_logo.png" alt="" title="">
+                    	</a>
+                    </div>
+				</div>
+				<!--Nav Box-->
+				<div class="nav-outer clearfix">
+					<!--Mobile Navigation Toggler For Mobile-->
+					<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+					<nav class="main-menu navbar-expand-md navbar-light">
+						<div class="navbar-header">
+							<!-- Togg le Button -->      
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon flaticon-menu-1"></span>
+							</button>
+						</div>
+						
+						<div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                            <ul class="navigation clearfix">
+            					<li><a href="index.html">HOME</a></li>
+            					<li><a href="location.html">LOCATION</a></li>
+            					<li><a href="accomodation.html">ACCOMODATION</a></li>
+            					<li><a href="gallery.html">GALLERY</a></li>
+            					<li><a href="promo.html">PROMO</a></li>
+            					<li><a href="about_us.html">ABOUT</a></li>
+            					<li class="active"><a href="contact_us.html">CONTACT</a></li>
+                                <li><button type="button" class="theme-btn btn-style-gold book-room-btn rs-mobile" onclick="window.location.href='book.html'"><span class="txt">Book A Room</span></button></li>
+                            </ul>
+                        </div>
+					</nav>
+					<!-- Main Menu End-->
+				</div>
+			</div>
+        </div>
+        <!--End Header Upper-->
+    	<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo/aquaria_logo.png" class="logo-img" alt="Aqua Logo" title=""></a></div>
+                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+    </header>
+    <!-- End Main Header -->
+    <!-- Millennial Resorts Main Slider Section -->
+	<section class="contact-us main-slider contact-us-index">
+		<div class="slider-box">
+			<div class="slide">
+            	<img class="image-layer" style="background-image:url(images/contact-us/Group_13.png);">
+				<div class="auto-container">
+					<div class="content text-center pt-5">
+						<h3 class="header-title-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Contact us</h3>
+						<img src="images/icons/wave.png" class="wave">
+						<p class="header-description-txt wow fadeIn " data-wow-delay="500ms" data-wow-duration="1500ms">Your feedback is important to us, please share with us any comments you may have !</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Form Section -->
+	<section class="contact-form-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<!-- Form Column -->
+				<div class="form-column col-lg-7 col-md-12 col-sm-12">
+					<div class="inner-column sec-aquaria-title">
+						<!-- Contact Form -->
+						<div class="contact-form cnt-us sec-title">
+							<p class="text-uppercase">INQUIRY DETAIL</p>
+							<!--Contact Form-->
+							<form method="post" action="" class="pt-5">
+								<div class="row clearfix">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<div class="form-group">
+											<input type="text" class="form-control" name="username" placeholder="How can we assists?" required>
+										</div>
+									</div>
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<textarea type="text" name="email" placeholder="Your comment/Feedback or Inquiries (optional)"  required></textarea>
+									</div>
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<input type="text" name="subject" placeholder="Enter Your Fullname" required>
+									</div>
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="email" placeholder="Enter your Email address" required>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-12">
+										<div class="form-group">
+											<label>Contact No.</label>
+											<input type="text" class="form-control" name="username" placeholder="Enter Your contact number" required>
+										</div>
+									</div>
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<button class="theme-btn btn-style-gold" type="submit" name="submit-form"><span class="txt">Send Message</span></button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Info Column -->
+				<div class="info-column col-lg-5 col-md-12 col-sm-12 sec-aquaria-title">
+					<div class="inner-column cnt-us sec-title">
+						<p class="text-uppercase">AQUA RESORT</p>
+						<div class="row">
+							<div class="col-md-4 col-sm-2">
+								<ul class="contact-info-list pt-4 cont">
+									<li><b>Address</b></li>
+								</ul>
+							</div>
+							<div class="col-md-8 col-sm-2 cont">
+								<ul class="contact-info-list pt-4">
+									<li>Samal, Davao</li>
+								</ul>
+							</div>
+
+							<div class="col-md-4 col-sm-2 cont">
+								<ul class="contact-info-list">
+									<li><b>Telephone</b></li>
+								</ul>
+							</div>
+							<div class="col-md-8 col-sm-2 cont">
+								<ul class="contact-info-list">
+									<li>(+63 2) 8836 5000</li>
+									<li>(+63 918) 836 5000</li>
+								</ul>
+							</div>
+
+							<div class="col-md-4 col-sm-2 cont">
+								<ul class="contact-info-list">
+									<li><b>Email</b></li>
+								</ul>
+							</div>
+							<div class="col-md-8 col-sm-2 cont">
+								<ul class="contact-info-list">
+									<li>info@aquaresorts.com</li>
+								</ul>
+							</div>
+
+							<div class="col-md-4 col-sm-2 cont">
+								<ul class="contact-info-list">
+									<li><b>Social</b></li>
+								</ul>
+							</div>
+							<div class="col-md-8 col-sm-2 cont">
+								<ul class="social-icons-flex">
+			                        <li class="social-icons-margin">
+			                        	<a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a>
+			                        </li>
+			                        <li class="social-icons-margin">
+			                        	<a href="#" target="__blank"><span class="fab fa-twitter"></span></a>
+			                        </li>
+			                        <li class="social-icons-margin">
+			                        	<a href="#" target="__blank"><span class="fab fa-instagram"></span></a>
+			                        </li>
+			                    </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mission-section">
+		<div class="carousel-wrap">
+		  	<div id="aquaria-gallery" class="owl-carousel">
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_10.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_11.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_12.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_13.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_14.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_15.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+		  	</div>
+		</div>
+	</section>
+
+	<section class="">
+		<div class="auto-container">
+			<div class="row justify-content-center">
+				<div class="sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
+					<p class="heading-title text-center">SHARE AQUARIA ON SOCIAL MEDIA AND SHINE WITH US</p>
+					<div class="col-lg-12 col-md-12 col-sm-12 centered">
+						<ul class="social-media">
+							<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+							<li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="aquaria-big-image">
+		<img src="images/index/Group_113.png" style="background-size: cover">
+		<div class="comments">
+			<div class="col-md-10">
+				<img src="images/icons/quote_1.png">
+				<h3>Thank you for sharing this beautiful property with us! Absolute perfect for 3 families</h3>
+			</div>
+			<div class="star">
+				<img src="images/icons/star.png">
+			</div>
+			<div class="col-sm-10 comment-under-star">
+				<p>Proident ut veniam est quis proident proident ad incididunt in pariatur. Nostrud nisi mollit eu esse eiusmod cupidatat culpa id commodo velit est aute commodo. Commodo culpa qui dolore occaecat.</p>
+			</div>
+			<div class="fam-comment">
+				<p><b>- Dimaunahan Family</b></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="news-section" style="background: #31BBD8;">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<div class="col-md-9">
+					<img src="images/logo/Aquaria_w.png">
+					<br>
+					<ul class="social-icons-flex" style="margin-top: 30px;color:#ffffff">
+                        <li class="social-icons-margin">
+                        	<span>Home</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>About Us</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Projects</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Locations</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Connect</span>
+                        </li>
+                    </ul>
+
+					<ul class="social-icons-flex social-media-icons">
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-twitter"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-instagram"></span></a>
+                        </li>
+                    </ul>
+
+				</div>
+
+				<div class="col-md-3 pt-4">
+					<div class="text text-right">
+						<p class="t-copyright" style="color:#ffffff">&#x24B8;2020 Aquaria Water Park.<br>All Rights Reserved.</p>
+					</div>
+				</div>
+			</div><hr style="border: 0.01em solid #ffffff">
+		</div>
+	<!-- </section>
+	
+    <footer class="main-footer" style="background: #31BBD8;"> -->
+		<div class="auto-container">
+			<div class="row clearfix">
+				<div class="col-md-9">
+					<p class="text-left vsp" style="color:#ffffff">Visit our sister properties</p>
+					<br>
+					<ul class="social-icons-flex" style="margin-top: -20; color:#ffffff">
+                        <li class="social-icons-margin">
+                        	<span>Cocoons</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Aquaria</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Aqua</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Boardwalk</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>The Colony</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>The Walk</span>
+                        </li>
+                    </ul>
+				</div>
+
+				<div class="col-md-3 pt-4">
+					<div class="text">
+						<img src="images/logo/Millennial_w.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<!--Scroll to top-->
+<!-- JavaScript -->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/script.js"></script>
+<script src="assets/vendors/highlight.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.js"></script>
+<script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// $('#plans').owlCarousel({
+	//   loop: true,
+	//   margin: 0,
+	//   nav: true,
+	//   navText: [
+	//     // "<i class='fa fa-angle-left nav-text'></i>",
+	//     "",
+	// 	"<div><i class='fa fa-arrow-right nav-text'></i></div>"
+	//     // "<i class='fa fa-angle-right nav-text'></i>"
+	//   ],
+	//   autoplay: true,
+	//   autoplayHoverPause: true,
+	//   responsive: {
+	    
+	//     664: {
+	//       items: 1
+	//     },
+	//     1024: {
+	//       items: 4
+	//     }
+	//   }
+	// })
+
+	$('#aquaria-gallery').owlCarousel({
+	  loop: true,
+	  margin: 10,
+	  nav: true,
+	  navText: [
+	    "<i class='fa fa-angle-left nav-text'></i>",
+	    "<i class='fa fa-angle-right nav-text'></i>"
+	  ],
+	  // autoHeight: true,
+	  autoplay: false,
+	  autoplayHoverPause: true,
+	  responsive: {
+	   
+	    664: {
+	      items: 1
+	    },
+	    1024: {
+	      items: 6
+	    }
+	  }
+	})
+
+})
+
+</script>
+
+</body>
+
+</html>

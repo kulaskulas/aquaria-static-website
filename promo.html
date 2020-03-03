@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Aqua</title>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!-- Owl Stylesheets -->
+<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style type="text/css">
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.carousel-wrap
+{
+	padding: 0px 20px 0px 20px; 
+}
+
+@media only screen and (max-width: 664px) {
+	.btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: 3%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 190px;
+		height: 50px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.right-arrow
+	{
+		width: 50px; 
+	}
+	.abt-title
+	{
+		margin-top: -3px;
+		font-size: 10px;
+	}
+
+	.l-right-arrow
+	{
+		width: 50px;
+	}
+	.l-title
+	{
+		margin-top: 2px;
+		font-size: 10px;
+	}
+
+	.btn-lwb
+	{
+		z-index: 1;
+		position: absolute;
+		top: 84%;
+		left: 11%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 280px;
+		height: 80px;
+		background: #ffffff;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.lwb-title
+	{
+		font-family: Gotham-font;
+		font-weight: lighter;
+		margin-top: 20px;
+		margin-left: -18px;
+		font-size: 18px;
+		line-height: 7px;
+	}
+
+	.btn-vg
+	{
+		z-index: 1;
+		position: absolute;
+		top: 100%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 280px;
+		height: 50px;
+		background: #ffffff;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.vg-title
+	{
+		font-family: Gotham-font;
+		font-weight: lighter;
+		margin-top: 2px;
+		font-size: 10px;
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+	<!-- Main Header / Header Style Four -->
+    <header class="main-header header-style-three">
+        
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container clearfix">
+				<!--Info-->
+				<div class="logo-outer logo-inner">
+					<div class="logo lg">
+                    	<a href="index.html">
+                    		<img src="images/logo/aquaria_logo.png" class="logo-img" alt="Aqua Logo" title="">
+                    	</a>
+                    </div>
+				</div>
+
+				<!--Nav Box-->
+				<div class="nav-outer clearfix">
+					<!--Mobile Navigation Toggler For Mobile-->
+					<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+					<nav class="main-menu navbar-expand-md navbar-light">
+						<div class="navbar-header">
+							<!-- Togg le Button -->      
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon flaticon-menu-1"></span>
+							</button>
+						</div>
+						
+						<div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                            <ul class="navigation clearfix">
+            					<li><a href="index.html">HOME</a></li>
+            					<li><a href="location.html">LOCATION</a></li>
+            					<li><a href="accomodation.html">ACCOMODATION</a></li>
+            					<li><a href="gallery.html">GALLERY</a></li>
+            					<li class="active"><a href="promo.html">PROMO</a></li>
+            					<li><a href="about_us.html">ABOUT</a></li>
+            					<li><a href="contact_us.html">CONTACT</a></li>
+                                <li><button type="button" class="theme-btn btn-style-gold book-room-btn rs-mobile" onclick="window.location.href='book.html'"><span class="txt">Book A Room</span></button></li>
+                            </ul>
+                        </div>
+					</nav>
+					<!-- Main Menu End-->
+				</div>
+			</div>
+            
+        </div>
+        <!--End Header Upper-->
+
+    	<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo/aquaria_logo.png" class="logo-img" alt="Aqua Logo" title=""></a></div>
+                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+    </header>
+	<section class="promo-index contact-us main-slider">
+		<div class="slider-box">
+			<div class="slide">
+            	<img class="image-layer" style="background-image:url(images/promo/Group_113.png);">
+				<div class="auto-container">
+					<div class="content text-center pt-5">
+						<h3 class="header-title-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Exclusive promos</h3>
+						<img src="images/icons/wave.png" class="wave">
+						<p class="header-description-txt wow fadeIn " data-wow-delay="500ms" data-wow-duration="1500ms">Take advantage of special savings and exclusive offers.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="accomodation promo-offers">
+		<div class="auto-container">
+			<div class="row justify-content-center sec-aquaria-title">
+				<div class="sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
+					<p>Our Offers</p>
+					<h3 class="text-center">Take advantage of special savings and exclusive offers.</h3>
+					<br>
+					<img src="images/icons/wave.png">
+					<br><br>
+					<div class="text text-center">Discover Aquaria offers crafted to enhance your stay and create unforgettable moments.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="promo">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<!-- News Block -->
+				<div class="news-block text-left col-lg-6 col-md-6 col-sm-12">
+					<div class="promo-top-text sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
+						<h3 class="sub-heading-txt">Find special offers deal in perfect locations worldwide</h3>
+						<br>
+					</div>
+				</div>
+				<div class="news-block col-lg-6 col-md-6 col-sm-12 pt-5">
+					<div class="accomodation-top-text-right inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="right-text text">Find out more about discounts exclusive to Aqua members, partnership deals with our esteemed associate companies and institutions as well as promotions lorem</div>
+					</div>
+				</div>
+				
+			
+				<div class="select-location news-block col-md-12 pt-4">
+					<div class="accomodation-top-text-right inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="row">
+				            <div class="col-md-6">
+				                <div class="form__group">
+				                    <label for="arrival" class="form__label" style="color: #646464;">Select your Location &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
+				                    <input type="text" class="form__field" name="arrival" required>
+				                </div>
+				            </div>
+				        
+				            <div class="col-md-6 pt-5 promo-list">
+					            <ul>
+								  <li><a href="#home">All</a></li>
+								  <li><a href="#news">Special Rates</a></li>
+								  <li><a href="#contact">Group Savings</a></li>
+								  <li><a href="#about">Extended Stay</a></li>
+								</ul>
+			    			</div>
+				        </div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="rooms-page-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<!-- Service Block -->
+				<div class="service-block-three style-two col-lg-12 col-md-12 col-sm-12 promo-sec">
+					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						
+						<div class="row clearfix">
+							<div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="image">
+									<a href=""><img src="images/promo/Group_24.png" alt="" /></a>
+								</div>
+							</div>
+
+							<div class="col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="lower-content text-left">
+									<div class="row clearfix">
+										<div class="col-sm-6">
+											<h3>Birthday Celebration at Crusoe</h3>
+											<div class="row justify-content-start">
+												<div class="text text-left sub-lines" style="margin-left: 15px;"></div>
+											</div>
+										</div>
+										<div class="col-sm-2 logo-brand">
+											<img src="images/logo/aquaria_logo.png">
+										</div>
+									</div>
+
+									<div class="row clearfix">
+										<div class="col-sm-6">
+											<div class="text">Override the digital divide with additional clickthroughs from DevOps. Nanotech highway will close the loop.</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="text">
+												
+												<ul class="list-style-three">
+													<li>Save Up  to 25% OFF</li>
+													<li>Applicable for stays throughout 2020</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row justify-content-end clearfix">
+								<div class="btn promo-btn">
+									<p>BOOK NOW</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="service-block-three style-two col-lg-12 col-md-12 col-sm-12 promo-sec">
+					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						
+						<div class="row clearfix">
+							<div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="image">
+									<a href=""><img src="images/promo/Group_26.png" alt="" /></a>
+								</div>
+							</div>
+
+							<div class="col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="lower-content text-left">
+									<div class="row clearfix">
+										<div class="col-sm-6">
+											<h3>Ultimate Adventure at Aquaria</h3>
+											<div class="row justify-content-start">
+												<div class="text text-left sub-lines" style="margin-left: 15px;"></div>
+											</div>
+										</div>
+										<div class="col-sm-2 logo-brand">
+											<img src="images/logo/aquaria_logo.png">
+										</div>
+									</div>
+
+									<div class="row clearfix">
+										<div class="col-sm-6">
+											<div class="text">Override the digital divide with additional clickthroughs from DevOps. Nanotech highway will close the loop.</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="text">
+												
+												<ul class="list-style-three">
+													<li>Save Up  to 25% OFF</li>
+													<li>Applicable for stays throughout 2020</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row justify-content-end clearfix">
+								<div class="btn promo-btn">
+									<p>BOOK NOW</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="mission-section">
+		<div class="carousel-wrap">
+		  	<div id="aquaria-gallery" class="owl-carousel">
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_10.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_11.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_12.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_13.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_14.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="item news-block">
+			    	<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+			    		<div class="image">
+			    			<img src="images/index/Rectangle_15.png" alt="" />
+			    		</div>
+			    	</div>
+			    </div>
+		  	</div>
+		</div>
+	</section>
+
+	<section class="aquaria-big-image">
+		<img src="images/index/Group_113.png" style="background-size: cover">
+		<div class="comments">
+			<div class="col-md-10">
+				<img src="images/icons/quote_1.png">
+				<h3>Thank you for sharing this beautiful property with us! Absolute perfect for 3 families</h3>
+			</div>
+			<div class="star">
+				<img src="images/icons/star.png">
+			</div>
+			<div class="col-sm-10 comment-under-star">
+				<p>Proident ut veniam est quis proident proident ad incididunt in pariatur. Nostrud nisi mollit eu esse eiusmod cupidatat culpa id commodo velit est aute commodo. Commodo culpa qui dolore occaecat.</p>
+			</div>
+			<div class="fam-comment">
+				<p><b>- Dimaunahan Family</b></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="news-section" style="background: #31BBD8;">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<div class="col-md-9">
+					<img src="images/logo/Aquaria_w.png">
+					<br>
+					<ul class="social-icons-flex" style="margin-top: 30px;color:#ffffff">
+                        <li class="social-icons-margin">
+                        	<span>Home</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>About Us</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Projects</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Locations</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Connect</span>
+                        </li>
+                    </ul>
+
+					<ul class="social-icons-flex social-media-icons">
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-twitter"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-instagram"></span></a>
+                        </li>
+                    </ul>
+
+				</div>
+
+				<div class="col-md-3 pt-4">
+					<div class="text text-right">
+						<p class="t-copyright" style="color:#ffffff">&#x24B8;2020 Aquaria Water Park.<br>All Rights Reserved.</p>
+					</div>
+				</div>
+			</div><hr style="border: 0.01em solid #ffffff">
+		</div>
+	<!-- </section>
+	
+    <footer class="main-footer" style="background: #31BBD8;"> -->
+		<div class="auto-container">
+			<div class="row clearfix">
+				<div class="col-md-9">
+					<p class="text-left vsp" style="color:#ffffff">Visit our sister properties</p>
+					<br>
+					<ul class="social-icons-flex" style="margin-top: -20; color:#ffffff">
+                        <li class="social-icons-margin">
+                        	<span>Cocoons</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Aquaria</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Aqua</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Boardwalk</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>The Colony</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>The Walk</span>
+                        </li>
+                    </ul>
+				</div>
+
+				<div class="col-md-3 pt-4">
+					<div class="text">
+						<img src="images/logo/Millennial_w.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+</div>  
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+	<div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
+	<div class="popup-inner">
+		<div class="overlay-layer"></div>
+    	<div class="search-form">
+        	<form method="post" action="templateshub.net">
+            	<div class="form-group">
+                	<fieldset>
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                        <input type="submit" value="Search Now!" class="theme-btn">
+                    </fieldset>
+                </div>
+            </form>
+            
+            <br>
+            <h3>Recent Search Keywords</h3>
+            <ul class="recent-searches">
+                <li><a href="#">Home Interiors</a></li>
+                <li><a href="#">Offices Interiors</a></li>
+                <li><a href="#">Showroom Interiors</a></li>
+                <li><a href="#">Building Interiors</a></li>
+                <li><a href="#">Shops Interiors</a></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+</div>
+
+<!--Scroll to top-->
+<!-- JavaScript -->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/script.js"></script>
+<script src="assets/vendors/highlight.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.js"></script>
+<script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('#aquaria-gallery').owlCarousel({
+	  loop: true,
+	  margin: 10,
+	  nav: true,
+	  navText: [
+	    "<i class='fa fa-angle-left nav-text'></i>",
+	    "<i class='fa fa-angle-right nav-text'></i>"
+	  ],
+	  // autoHeight: true,
+	  autoplay: false,
+	  autoplayHoverPause: true,
+	  responsive: {
+	   
+	    664: {
+	      items: 1
+	    },
+	    1024: {
+	      items: 6
+	    }
+	  }
+	})
+
+})
+
+</script>
+
+</body>
+
+</html>
