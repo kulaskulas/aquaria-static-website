@@ -8500,6 +8500,11 @@ img{
 	margin-top: -200px;
 }	
 
+/*.aquaria-big-image .comments
+{
+	background-color: red;
+}*/
+
 /*IF MOBILE TOGGLE*/
 @media (min-width: 320px) and (max-width: 664px) {
 	.book-select-room .book-now .room-price .lower-content .text
@@ -13038,6 +13043,7 @@ input[type=checkbox]:checked:disabled + label:before {
 
 	.accomodation  .news-block-cocoons .btn
 	{
+		padding-bottom: 50px;
 		margin-top: 20px;
 		margin-left: 260px !important;
 	}
