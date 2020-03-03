@@ -8490,6 +8490,16 @@ img{
     font-family: 'Karla', sans-serif;
 }
 
+.index .find-accomodation .find-accomodation-text-left
+{
+	margin-top: 100px;
+}
+
+.index .find-accomodation .book-now
+{
+	margin-top: -200px;
+}	
+
 /*IF MOBILE TOGGLE*/
 @media (min-width: 320px) and (max-width: 664px) {
 	.book-select-room .book-now .room-price .lower-content .text
@@ -10349,7 +10359,25 @@ h3.header-title-txt {
 }
 
 @media only screen and (width: 1024px)
-{	
+{
+	.index .find-accomodation
+	{
+		padding: 0px 20px 0px 40px !important;
+	}
+	.index .find-accomodation .find-accomodation-text-left
+	{
+		margin-top: 100px;
+	}	
+
+	.index .find-accomodation .find-accomodation-text-left .heading-title
+	{
+		width: 50%;
+	}	
+	.index .find-accomodation .book-now
+	{
+		margin-top: -200px;
+	}
+
 	.book-select-room
 	{
 		padding: 50px 30px 0px 30px !important;
@@ -10370,11 +10398,6 @@ h3.header-title-txt {
 	{
 		padding: 50px 30px 0px 30px !important;
 	}
-	/*.about-card-btn
-	{
-		height: 300px !important;
-		background-color: red;
-	}*/
 
 	.our-philosophy
 	{
@@ -12777,6 +12800,527 @@ input[type=checkbox]:checked:disabled + label:before {
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
 	background-color: #48CEEA;
+}
+
+/*ipad*/
+@media  only screen and (width: 768px)
+{	
+	.book-select-room .book-now .room-price button
+	{
+		margin-right: 18px;
+	}
+	.book-select-room .sort_form__group label
+	{
+		font-size: 10px;
+		width: 100%;
+		text-align: center;
+		margin-left: 20px;
+		line-height: 15px;
+	}
+	.book-now-mobile-view .book-now .book-btn
+	{
+		margin-left: 55px;
+		margin-top: -70px;
+	}
+	.book-now-mobile-view .book-now form
+	{
+		margin-left: 10px;
+	}
+	.book-now-mobile-view .book-now .form__group .form__label
+	{
+		margin-top: -20px;
+	}
+	.book-now-mobile-view .book-now .form__group input.form__field
+	{ 
+		background-color: #EAF0EF;
+		width: 100px;
+		height: 50px;
+		border-bottom: 1px solid #000000;
+	}
+	/*.book-now-mobile-view .book-now .form__group
+	{
+		height: 100px;
+		padding: 10px;
+	}
+	.book-now-mobile-view .book-now .form__group .form__field
+	{
+		height: 50px;
+		border-bottom: 1px solid #000000; 
+		background-color: #EAF0EF;
+	}*/
+	.book-now-mobile-view
+	{
+		margin-top: 100px;
+	}
+	.book-now-index .content h3
+	{
+		font-size: 45px;
+	}
+	.book-now-index .content
+	{
+		top: 40px;
+	}
+	.mission-section
+	{
+		margin-top: -50px !important;
+	}
+	.contact-form-section .cont .social-icons-flex
+	{
+		margin-left: 150px;
+	}
+	.contact-form-section .info-column
+	{
+		text-align: center;	
+	}
+	.contact-form-section .contact-form
+	{
+		text-align: center;
+	}
+	.contact-us-index .content h3
+	{
+		font-size: 45px;
+	}
+	.contact-us-index .content
+	{
+		top: 40px;
+	}
+
+	.our-philosophy .accomodation-top-text-right img
+	{
+		margin-top: -20px !important;
+	}
+	.our-philosophy .accomodation-top-text-right
+	{
+		margin-top: 40px;
+	}
+	.our-philosophy
+	{
+		margin-top: 50px !important;	
+	}
+	.mission-section .our-vision
+	{
+		text-align: center;
+		width: 100%;
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.mission-section .about-card-btn
+	{
+		box-shadow: none;
+		margin-bottom: -50px !important;
+		/*height: 250px;*/
+		/*margin-top: -100px;*/
+		position: static;
+	}
+	.by-numbers .by-number-text
+	{
+		margin-top: -50px;
+	}
+	.about_us .mobile-about-us
+	{
+		margin-top: -100px !important;
+	}
+	.about_us .about-us-top-text h3
+	{
+		width: 100%;
+		font-size: 23px;
+		line-height: 30px;
+		color: #00516F;
+	}
+	.about_us
+	{
+		margin-top: 100px;
+	}
+	.about-index .content h3
+	{
+		font-size: 45px;
+	}
+	.about-index .content
+	{
+		top: 40px;
+	}
+
+	.rooms-page-section .lower-content .logo-brand
+	{
+		margin-left: 150px;
+	}
+
+	.rooms-page-section .lower-content .text
+	{
+		margin-top: -5px !important;
+		line-height: 15px;
+	}
+	.rooms-page-section .lower-content h3
+	{
+		font-size: 12px;
+	}
+
+	.rooms-page-section .promo-btn p
+	{
+		color: #ffffff;
+		margin-top: 5px;
+	}
+	.rooms-page-section .promo-btn
+	{
+		height: 50px;
+		width: 150px;
+		background-color: #31BBD8;
+		margin-left: 330px;
+		top: 30px;
+		margin-bottom: 10px;
+	}
+
+	.rooms-page-section
+	{
+		margin-top: 50px;
+	}
+	.promo .select-location .form__group
+	{
+		margin-left: 50px;
+	}
+	.promo .select-location .form__group .form__label
+	{
+		margin-top: -20px;
+	}
+	.promo .select-location .promo-list li a
+	{
+		float: left;
+		margin-top: -20px;
+		padding-right: 15px;
+		color: #000000;
+		/*border-bottom: 1px solid #000000; */
+		/*padding:2px;*/
+		/*background-color: red;*/
+	}
+	.promo .select-location .form__group .form__field
+	{
+		height: 50px;
+		border-bottom: 1px solid black;
+		/*background-color: red;*/
+	}
+	.promo .accomodation-top-text-right .text
+	{
+		font-size: 17px;
+		line-height: 25px;
+		margin-top: -50px; 
+	}
+	.promo .promo-top-text h3
+	{
+		font-size: 23px;
+		line-height: 30px;
+	} 
+	.promo-index .content h3
+	{
+		font-size: 40px;
+	}
+	.promo-index .content
+	{
+		top: 40px;
+	}
+	.accomodation .accomodation-top-text-left .text
+	{
+		margin-top: -10px;
+		text-align: right;
+	}
+	.accomodation .accomodation-top-text-left h3
+	{
+		margin-left: 175px;
+	}
+	.accomodation .accomodation-top-text-left img
+	{
+		margin-top: 50px;
+		margin-left: 200px;
+	}
+	.accomodation  .news-block .btn
+	{
+		margin-left: -120px !important;
+	}
+
+	.accomodation  .news-block-cocoons .btn
+	{
+		margin-top: 20px;
+		margin-left: 260px !important;
+	}
+	.accomodation .accomodation-top-text-right .text
+	{
+		margin-top: -10px;
+	}
+	.accomodation .accomodation-top-text-right img
+	{
+		margin-top: 23px;
+	}
+	.accomodation
+	{
+		margin-top: 100px;
+	}
+	.accomodation-index .content h3
+	{
+		font-size: 45px;
+	}
+	.accomodation-index .content
+	{
+		top: 40px;
+	}
+	.location .flex-location-details .post-meta
+	{
+		margin-left: 25px;
+		width: 100%;
+	}
+	.location .flex-location-details .details .btn-style-outline .txt
+	{
+		color: black;
+	}
+	.location .flex-location-details .details .btn-style-outline
+	{
+		margin-left: 120px;
+		width: 100%;
+		border: 2px solid #31BBD8;
+		background-color: white;
+	}
+
+	.location .news-block .flex-location-details .details .view-photos-btn
+	{
+		position: absolute;
+		margin-left: 400px;
+		margin-top: -45px !important;
+		width: 220px;
+	}
+	.location
+	{
+		margin-top: 100px;
+	}
+	.location-image .content h3
+	{
+		font-size: 45px;
+	}
+	.location-image .content
+	{
+		top: 40px;
+	}
+	.aquaria-big-image .comments
+	{
+		margin-left: 10px;
+		position: static;
+		margin-top: 30px;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.plan-your-day #plans .nav-next
+	{
+		margin-right: 550px; 
+	}
+	.plan-your-day #plans .nav-prev
+	{
+		margin-left: -170px; 
+	}
+	.plan-your-day
+	{
+		padding: 50px 20px 20px 0px;
+	}
+
+	.comfort-for-all-taste .btn-comfort
+	{
+		margin-left: 250px;
+	}
+
+	.comfort-for-all-taste .news-block .card-content-left-align-6 .text img
+	{
+		margin-left: 15px;
+	}
+
+	.comfort-for-all-taste .news-block .card-content-left-align-6 .text
+	{
+		margin-left: -50px;
+	}
+	.sec-aquaria-title .sec-title p
+	{
+		font-size: 18px;
+	}
+
+	.sec-aquaria-title .sec-title h3
+	{
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.sec-aquaria-title .sec-title .text
+	{
+		margin-top: -5px;
+	}
+
+	.comfort-for-all-taste
+	{
+		padding: 30px 20px 20px 20px;
+	}
+	.aquaria-haven-awaits .promo-sec .heaven-awaits-grid .grid img
+	{
+		margin-left: 80px;
+	}
+
+	.aquaria-haven-awaits .promo-sec .heaven-awaits-grid
+	{
+		padding: 50px 0px 20px 40px;
+	}
+	/*.aquaria-haven-awaits .sec-aquaria-title .sec-title .text
+	{
+		margin-top: -5px;
+	}
+	.aquaria-haven-awaits .sec-aquaria-title .sec-title p
+	{
+		font-size: 18px;
+	}
+
+	.aquaria-haven-awaits .sec-aquaria-title .sec-title h3
+	{
+		font-size: 30px;
+		line-height: 30px;
+	}*/
+
+	.aquaria-haven-awaits
+	{
+		padding: 50px 10px 10px 0px;
+	}
+
+	.welcome-to-aquaria .btn-aquaria p
+	{
+		margin-top: -5px;
+		text-align: center;
+	}
+
+	.welcome-to-aquaria .btn-aquaria
+	{
+		position: static;
+		margin-left: -120px;
+	}
+
+	/*.welcome-to-aquaria .sec-aquaria-title .sec-title p
+	{
+		font-size: 18px;
+	}
+
+	.welcome-to-aquaria .sec-aquaria-title .sec-title h3
+	{
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.welcome-to-aquaria .sec-aquaria-title .sec-title .text
+	{
+		margin-top: -5px;
+	}*/
+
+	.welcome-to-aquaria .sec-title
+	{
+		margin-top: 40px;
+	}
+
+	.welcome-to-aquaria
+	{
+		padding: 50px 10px 20px 10px;
+	}
+	.main-header .header-upper .main-menu li a
+	{
+		font-size: 10px;
+	}
+
+	.main-header .header-upper .auto-container .main-menu ul li button span.txt
+	{
+		font-size: 9px;
+	}
+
+	.main-header .header-upper .auto-container .main-menu ul li button
+	{
+		top: -7px;
+	}
+
+	.main-header .header-upper .logo img
+	{
+		width: 100px;
+		top: 20px; 
+	}
+
+	.index .content
+	{
+		top: 100px;
+	}
+
+	.index .content h3
+	{
+		font-size: 40px;
+	}
+
+	.index .content p.upper-text
+	{
+		font-size: 22px;
+	}
+
+	.index .content p.header-description-txt
+	{
+		font-size: 17px;
+	}
+
+	.index .content img
+	{
+		/*margin-bottom: 10px;	*/
+	}
+
+	.index .find-accomodation .find-accomodation-text-left .heading-title
+	{
+		/*font-size: 18px;*/
+		text-align: center;
+	}
+
+	.index .find-accomodation .find-accomodation-text-left .text
+	{
+		font-size: 14px;
+	}
+
+	.index .find-accomodation
+	{
+		padding: 0px 20px 10px 20px;
+	}
+
+	.index .find-accomodation .find-accomodation-text-left
+	{
+		width: 100%;
+		margin-top: 100px;
+		margin-left: 90px;
+		text-align: center;
+	}
+
+	.index .find-accomodation .book-now
+	{
+		margin-top: -50px;
+		margin-left: 70px;
+	}
+	.index .find-accomodation .book-now form .form__group
+	{
+		width: 100px;
+		padding-right: 30px;
+	}
+
+	.index .find-accomodation .book-now .btn
+	{
+		margin-left: 650px;
+		margin-top: 5px;
+	}
+
+	.index .find-accomodation .book-now .btn p
+	{
+		margin-top: -5px;
+	}
+
+	.index .find-accomodation .book-now form .form__group input
+	{
+		width: 100%;
+		height: 50px;
+		margin-top: 10px;
+		border-bottom: 1px solid #000000;
+		/*width: 500px;*/
+		margin-right: 100px;
+		/*background-color: red;*/
+		/*width: 100%;*/
+	}
 }
 
 /*IF IPAD TOGGLE*/
