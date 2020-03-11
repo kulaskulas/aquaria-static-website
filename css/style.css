@@ -778,7 +778,17 @@ img{
 	position: relative;
 	float:left;
 }
-
+.main-header .header-upper ul li a
+{
+	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #1D1D1D;
+}
 .main-header .header-top .info-list li{
 	position: relative;
 	float: left;
@@ -9421,10 +9431,10 @@ img{
 	}
 
 	.header-title-txt {
-		font-family: Gotham-font, sans-serif;
+		font-family: Gotham, sans-serif;
 		font-style: normal;
-		font-weight: normal;
-		font-size: 63px;
+		font-weight: 350;
+		font-size: 60px;
 		line-height: 50px;
 		text-align: center;
 		letter-spacing: 0.01em;
@@ -9830,20 +9840,19 @@ img{
 }
 
 /*slider text*/
-h3.header-title-txt {
-		font-family: Gotham, sans-serif;
-		font-style: normal;
-		font-weight: 350;
-		font-size: 70px;
-		line-height: 92%;
-		margin-bottom: 30px;
-		/* or 55px */
+h3.header-title-txt 
+{
+	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 60px;
+	line-height: 92%;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
 
-		text-align: center;
-		text-transform: uppercase;
-
-		color: #FFFFFF;
-	}
+	color: #FFFFFF;
+}
 	
 	p.upper-text
 	{
