@@ -1,4 +1,4 @@
-/* Stella Orr'e - Interior and Home Renovation HTML Template  */
+ Stella Orr'e - Interior and Home Renovation HTML Template  */
 
 @media only screen and (max-width: 1600px){
 	
@@ -134,12 +134,86 @@
 	
 }
 
+
+@media (min-width: 665px) and (max-width: 767px)
+{
+	.by-numbers .by-number-text h3
+	{
+		text-align: right;
+		/*margin-left: 50px; */
+	}
+	.by-numbers .by-number-text p
+	{
+		text-align: right;
+		/*margin-left: 50px; */
+	}
+	.about-us-top-text h3
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.accomodation h3
+	{
+		width: 100%;
+	}
+
+	.accomodation-btn
+	{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+		
+	}
+	.btn-aquaria p
+	{
+		margin-top: -5px;
+	}
+
+	.btn-aquaria
+	{
+		position: static !important;
+		margin-bottom: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 969px)
+{
+	.btn-aquaria p
+	{
+		margin-top: -5px;
+	}
+
+	.btn-aquaria
+	{
+		position: static !important;
+		margin-bottom: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 @media only screen and (min-width: 768px){
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
 		display:block !important;
 		visibility:hidden;
 		opacity:0;
+	}
+}
+
+@media only screen and (min-width: 1025px)
+{
+	.heaven-awaits-grid .grid img
+	{
+		display: block;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 
@@ -883,13 +957,383 @@
 	}
 	
 }
+/*header*/
+/*826 991*/
+@media (min-width: 769px) and (max-width: 1023px)
+{
+	.promo h3
+	{
+		width: 100%;
+	}
+	.rooms-page-section .promo-sec .promo-btn p
+	{
+		text-align: center;
+		margin-top: -3px;
+		color: #ffffff;
+	}
+	.rooms-page-section .promo-sec .promo-btn
+	{
+		position: static;
+		/*margin-top: -50px;*/
+		/*display: block;*/
+		/*margin-left: auto;
+		margin-right: auto;*/
+		margin-bottom: 20px;
+		background-color: #31BBD8;
+	}	
+	.promo-list ul li a
+	{
+		color: #000000;
+	}
+
+	.promo-list ul li
+	{
+		/*display: flex;*/
+		float: left;
+		/*margin-top: -20px;*/
+		padding-right: 15px;
+	}
+
+	.news-block-cocoons
+	{
+		margin-top: 60px;
+	}
+	.comfort-for-all-taste .btn-comfort
+	{
+		margin-bottom: 50px !important;
+	}
+
+	.main-header .main-menu li button
+	{
+		width: 140px;
+		padding: 0px;
+	}
+	.main-header .main-menu li span
+	{
+		font-size: 9px;	
+	}
+	.main-header .main-menu ul li a
+	{
+		font-size: 10px;
+	}
+	.main-header .logo
+	{
+		padding-top: 10px;
+		width: 120px;
+	}
+
+}
+
+@media (min-width: 665px) and (max-width: 991px)
+{
+	.heaven-awaits-grid
+	{
+		margin-left: 1px;
+		border: 5px solid #ffffff;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.about-us-top-text h3
+	{
+		text-align: center;
+	}
+	.news-block-cocoons
+	{
+		margin-top: 60px;
+	}
+	.mission-section
+	{
+		position: static;
+	}
+	.accomodation h3
+	{
+		width: 100%;
+		/*text-align: center;*/
+	}
+	.heaven-awaits-grid
+	{
+		margin-top: 20px;
+	}
+
+	form.form-section
+	{
+		margin: auto;
+		display: block;
+	}	
+}
+@media (min-width: 665px) and (max-width: 767px)
+{
+
+	.promo h3
+	{
+		width: 100%;
+	}
+	.promo .select-location .promo-list ul li a
+	{
+		font-size: 20px;
+		color: #000000;
+		border-bottom: 1px solid #000000;
+	}
+
+	.rooms-page-section .promo-sec .promo-btn p
+	{
+		color: #ffffff;
+	}
+	.rooms-page-section .promo-sec .promo-btn
+	{
+		position: relative;
+		margin-top: -50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #31BBD8;
+	}
+	.comfort-for-all-taste .btn-comfort
+	{
+		margin-bottom: 50px; 
+	}
+	.form-section .btn
+	{
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*index banner*/
+@media (min-width: 665px) and (max-width: 1023px)
+{
+
+	/*.promo-btn
+	{
+		z-index: 1;
+		position: static;
+		top: 850%;
+		left: -20%;
+		margin-bottom: 10px;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 40px 10px;
+		width: 160px;
+		text-align: center;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+		background-color: #31BBD8;
+	}
+
+	.rooms-page-section .promo-btn p
+	{
+		color: #ffffff;
+		font-family: Gotham, sans-serif;
+		font-style: normal;
+		font-weight: 350;
+		font-size: 12px;
+		line-height: 14px;
+		text-align: right;
+		letter-spacing: 0.01em;
+		text-transform: uppercase;
+	}*/
+	/*.rooms-page-section .promo-sec .promo-btn p
+	{
+		margin-top: 10px;
+		color: #ffffff;
+		font-family: Gotham, sans-serif;
+	}*/
+	/*.rooms-page-section .promo-sec .promo-btn
+	{
+		position: static;
+		background-color: #31BBD8;
+		margin-bottom: 10px;
+	}*/
+
+	.auto-container-mobile
+	{
+		margin-top: 30px;
+	}
+
+	.btn-style-outline 
+	{
+		border: 1px solid #31BBD8; 
+		box-sizing: border-box; 
+		background: transparent; 
+		color: #1D1D1D; 
+		font-family: Gotham, sans-serif; 
+		font-style: normal;
+		font-weight: normal;
+		width: 100%;
+	}
+	.location .news-block .flex-location-details .view-photos-btn
+	{
+		width: 100%;	
+	}
+	.aquaria-haven-awaits .heaven-awaits-grid .grid img
+	{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		/*margin-left: 110px;*/
+	}
+	.aquaria-haven-awaits .btn-aquaria p
+	{
+		font-size: 13px;
+		margin-top: -2px;
+	}
+	.aquaria-haven-awaits .btn-aquaria
+	{
+		position: static;
+		margin-bottom: 30px !important;
+	}
+	.btn p
+	{
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.btn
+	{
+		z-index: 1;
+		position: absolute;
+		margin-top: -6px;
+		/*left: -20%;*/
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 166px;
+		height: 46px;
+		background: #87C8DA;
+		border-radius: 0;
+		font-family: Gotham, sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	form.form-section
+	{
+		margin-top: 50px;
+	}
+
+	input[id='property'] {
+	    background-image: url(../images/icons/form-icon-1.png);
+	    background-position: 1px 8px;
+	    background-repeat: no-repeat;
+	}
+
+	input[id='arrival'] {
+	    background-image: url(../images/icons/form-icon-2.png);
+	    background-position: 1px 8px;
+	    background-repeat: no-repeat;
+	}
+
+	input[id='departure'] {
+	    background-image: url(../images/icons/form-icon-2.png);
+	    background-position: 1px 8px;
+	    background-repeat: no-repeat;
+	}
+
+	input[id='adults'] {
+	    background-image: url(../images/icons/form-icon-3.png);
+	    background-position: 1px 8px;
+	    background-repeat: no-repeat;
+	}
+
+	input[id='children'] {
+	    background-image: url(../images/icons/form-icon-4.png);
+	    background-position: 1px 8px;
+	    background-repeat: no-repeat;
+	}
+
+	.form__group {
+		font-size: 15px;
+	  	position: relative;
+	  	padding: 15px 0 0;
+	  	margin-top: 15px;
+	  	width: 100%;
+	  	display: inline-flex;
+	  	flex-direction: row;
+	  	text-transform: uppercase;
+	  	letter-spacing: 2px;
+	}
+
+	.form__field {
+	  	font-family: inherit;
+	  	/*width: 100%;*/
+	  	border: 0;
+	  	border-bottom: 1px solid grey;
+	  	outline: 0;
+	  	font-size: 16px;
+	  	color: #212121;
+	  	padding: 7px 0;
+	  	padding-left: 30px;
+	  	background: transparent;
+	  	transition: border-color 0.2s;
+	}
+	.index .content p.header-description-txt
+	{
+		font-size: 17px;
+	}
+
+	.index .content h3
+	{
+		font-size: 50px;
+	}
+
+	.index .content
+	{
+		top: 100px;
+	}
+}
+
+/*banner name*/
+@media (min-width: 321px) and (max-width: 767px)
+{
+	/*.accomodation-btn
+	{
+		position: static;
+	}*/
+	.accomodation .accomodation-top-text-right img
+	{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.accomodation .accomodation-top-text-left img
+	{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.btn-aquaria
+	{
+		display: block !important;
+		position: relative !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+@media (min-width: 664px) and (max-width: 1023px)
+{
+	.page-title .content
+	{
+		margin-top: 30px;
+	}
+}
+
 
 @media only screen and (max-width: 599px){
-	
 	.main-slider .content{
-		max-width:380px;	
+		max-width:100%;	
 	}
-	
+
 	.shop-banner-section .content-box .text,
 	.main-slider .content .text{
 		font-size:15px;
@@ -1173,4 +1617,61 @@
 		width:100%;
 	}
 	
+}
+
+
+@media (min-width: 320px) and (max-width: 664px)
+{
+	.by-numbers .sec-aquaria-title .sec-title img
+	{
+		position: relative;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	/*.by-number-text img
+	{
+		position: relative;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}*/
+	.rooms-page-section .promo-btn
+	{
+		/*display: block !important;*/
+	/*	margin-right: auto !important;
+		margin-left: auto !important;
+		position: static !important;*/	
+	}
+
+	.accomodation-btn
+	{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+		
+	}
+	.auto-container-mobile{
+		position:static !important;
+		padding:50px 20px !important;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 375px)
+{
+	/*.social-icons-flex li
+	{
+		font-size: 20px;
+	}*/
+	/*.social-icons-flex .social-media-icons
+	{
+		display: flex;
+	}
+	.social-icons-flex
+	{
+		
+		text-align: center;
+		display: block;
+	}*/
 }

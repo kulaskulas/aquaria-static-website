@@ -4956,6 +4956,10 @@ img{
 .contact-form button{
 	cursor: pointer;
 	margin-top:10px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
 }
 
 .contact-form button:before{
@@ -5156,10 +5160,15 @@ img{
 ====================================================================
 
 ***/
+.page-title .content
+{
+	margin-top: -50px;
+}
 
 .page-title{
 	position:relative;
 	padding:190px 0px 70px;
+	height: 440px;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:right center;
@@ -5172,6 +5181,7 @@ img{
 	top:0px;
 	right:0px;
 	bottom:0px;
+	height: 440px;
 	transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;
@@ -6287,11 +6297,11 @@ img{
 	height:44px;
 	font-size:18px;
 	min-width:44px;
-	color:#242424;
+	color:#31BBD8;
 	font-weight:700;
 	text-align:center;
 	background:#ffffff;
-	border:2px solid #d4d4d4;
+	/*border:2px solid #d4d4d4;*/
 	text-transform:capitalize;
 	transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -6304,8 +6314,8 @@ img{
 .styled-pagination li a:hover,
 .styled-pagination li a.active{
 	color:#ffffff;
-	border-color:#282d31;
-	background-color:#282d31;
+	border-color:#31BBD8;
+	background-color:#31BBD8;
 }
 
 /*** 
@@ -8517,6 +8527,108 @@ img{
 
 /*IF MOBILE TOGGLE*/
 @media (min-width: 320px) and (max-width: 664px) {
+	.our-philosophy
+	{
+		margin-top: -30px !important;
+	}
+
+	.rooms-page-section .promo-btn
+	{
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+	.styled-pagination li a{
+	position:relative;
+	display:inline-block;
+	line-height:40px;
+	height:44px;
+	font-size:18px;
+	min-width:44px;
+	color:#31BBD8;
+	font-weight:700;
+	text-align:center;
+	background:#ffffff;
+	/*border:2px solid #d4d4d4;*/
+	text-transform:capitalize;
+	transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	font-family: 'Karla', sans-serif;
+	}
+
+	.styled-pagination li a:hover,
+	.styled-pagination li a.active{
+		color:#ffffff;
+		border-color:#31BBD8;
+		background-color:#31BBD8;
+	}
+
+	.form-section
+	{
+		margin-top: 50px;
+	}
+	.aquaria-big-image .comments
+	{
+		/*margin-top: -10px;*/
+		margin-top: 10px;
+		/*position: static;
+		text-align: center;
+		padding: 0px 0px 0px 0px;*/
+	}
+	.news-section .social-media-icons li
+	{
+		margin: 0;
+	}
+	.comfort-for-all-taste .btn-comfort
+	{
+		display: block !important;
+		position: relative !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.aquaria-haven-awaits .btn-aquaria
+	{
+		margin-bottom: 30px;
+	}
+
+	form.form-section
+	{
+		margin-top: 50px;
+	}
+	.form-section .btn p
+	{
+		margin-top: 1px;
+	}
+
+	.form-section .btn
+	{
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.section-margin
+	{
+		margin-top: 100px !important;
+	}
+	.page-title .content p
+	{
+		font-size: 17px;
+	}
+	.page-title .content h3
+	{
+		font-size: 45px;
+	}
+	.page-title .content
+	{
+		margin-top: 50px; 
+	}
 	.book-select-room .book-now .room-price .lower-content .text
 	{
 		text-align: center;
@@ -8554,8 +8666,12 @@ img{
 	.book-now-mobile-view .find-accomodation-book .book-now form
 	{
 		margin-top: 10px !important;
-		margin-left: -5px !important;
-		background-color: #EAF0EF;
+		/*margin-left: -5px !important;*/
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		/*background-color: #EAF0EF;*/
 		padding: 25px;
 	}
 	.book-now-mobile-view .find-accomodation-book .book-now .book-btn
@@ -8600,7 +8716,7 @@ img{
 
 	.book-now-mobile-view
 	{
-		margin-top: 310px;
+		/*margin-top: 310px;*/
 	}
 
 	.contact-form-section .info-column .cont
@@ -8625,7 +8741,7 @@ img{
 
 	.contact-form-section
 	{
-		margin-top: 280px;
+		/*margin-top: 280px;*/
 	}
 	.contact-form-section .contact-form
 	{
@@ -8660,7 +8776,7 @@ img{
 	
 	.our-philosophy .sec-aquaria-title .sec-title p
 	{
-		margin-top: -270px !important;	
+		/*margin-top: -270px !important;	*/
 		text-align: center;
 	}
 	.our-philosophy .sec-aquaria-title .sec-title .text
@@ -8669,7 +8785,7 @@ img{
 	}
 	.our-philosophy
 	{
-		margin-top: -50px !important;
+		margin-top: -50px;
 	}
 	.mission-section .about-card-btn
 	{
@@ -8688,17 +8804,17 @@ img{
 	}
 	.by-numbers .by-number-text img
 	{
-		margin-left: 160px; 
+		/*margin-left: 160px; */
 	}
 	.by-numbers .by-number-text h3
 	{
-		text-align: center;
-		margin-left: 50px; 
+		text-align: right;
+		/*margin-left: 50px; */
 	}
 	.by-numbers .by-number-text p
 	{
-		text-align: center;
-		margin-left: 50px; 
+		text-align: right;
+		/*margin-left: 50px; */
 	}
 	.by-numbers .sec-aquaria-title .sec-title p
 	{
@@ -8713,8 +8829,14 @@ img{
 
 	.by-numbers .sec-aquaria-title .sec-title img
 	{
-		margin-left: 130px !important;
-		text-align: center;
+		/*margin-left: : */
+		/*padding-top: 10px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;*/
+		/*margin-left: 130px !important;*/
+		/*text-align: center;*/
 	}
 
 	.about_us .about-us-top-text h3
@@ -8741,7 +8863,7 @@ img{
 
 	.about_us .sec-aquaria-title .sec-title
 	{
-		margin-top: 320px;
+		/*margin-top: 320px;*/
 	}
 
 	.about-index .content
@@ -8783,10 +8905,11 @@ img{
 
 	.rooms-page-section .promo-sec .promo-btn
 	{
-		position: static;
-		text-align: center;
-		margin-bottom: 10px !important;
-		margin-left: 120px;
+		position: relative;
+		margin-top: -50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		background-color: #31BBD8;
 	}
 
@@ -8825,12 +8948,12 @@ img{
 
 	.promo
 	{
-		padding: 30px 20px 20px 20px;
+		/*padding: 30px 20px 20px 20px;*/
 	}
 
 	.promo-offers .sec-aquaria-title .sec-title
 	{
-		margin: 300px 0px 20px 0px;
+		/*margin: 300px 0px 20px 0px;*/
 	}
 
 	.promo-index .content
@@ -8855,14 +8978,14 @@ img{
 
 	.accomodation .news-block-cocoons .accomodation-btn
 	{
-		margin-left: 90px !important;
+		/*margin-left: 90px !important;*/
 
 	}
 
 	.accomodation .news-block .accomodation-btn
 	{
 		margin-top: 30px !important;
-		margin-left: 90px !important;
+		/*margin-left: 90px !important;*/
 
 	}
 	
@@ -8902,7 +9025,7 @@ img{
 
 	.accomodation .sec-aquaria-title .sec-title
 	{
-		margin: 300px 0px 20px 0px;
+		/*margin: 100px 0px 20px 0px;*/
 	}
 
 	/*.accomodation .sec-aquaria-title .sec-title p
@@ -8932,7 +9055,7 @@ img{
 
 	.aquaria-big-image .comments
 	{
-		display: none;
+		/*display: none;*/
 	}
 
 	.plan-your-day
@@ -8999,7 +9122,11 @@ img{
 
 	.aquaria-haven-awaits .heaven-awaits-grid .grid img
 	{
-		margin-left: 110px;
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		/*margin-left: 110px;*/
 	}
 
 	.welcome-to-aquaria
@@ -9034,6 +9161,7 @@ img{
 		font-weight: lighter;
 	}
 
+
 	.index .find-accomodation-text-left
 	{
 		display: none;
@@ -9061,10 +9189,10 @@ img{
 		background-color: red;
 	}
 
-	.location
+	/*.location
 	{
 		padding: 300px 20px 0px 20px;
-	}
+	}*/
 
 	.location .news-block .sub-heading-txt
 	{
@@ -9081,7 +9209,7 @@ img{
 	{
 		border: 2px solid #31BBD8;
 		box-sizing: border-box;
-		color: #31BBD8;
+		color: #1D1D1D;
 		font-family: Gotham, sans-serif;
 		line-height: 20px;
 	}
@@ -9379,10 +9507,10 @@ img{
 		margin-bottom: 50px;
 	}
 
-	.news-section .social-media-icons li
+	/*.news-section .social-media-icons li
 	{
 		margin-left: 40px;
-	}
+	}*/
 
 	.news-section li
 	{
@@ -9453,7 +9581,7 @@ img{
 		text-align: center;
 		padding-top: 16px;
 		letter-spacing: 0.01em;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/	
 		color: #ffffff;
 	}
 
@@ -9501,7 +9629,7 @@ img{
 
 	.form__field {
 	  	font-family: inherit;
-	  	width: 100%;
+	  	/*width: 100%;*/
 	  	border: 0;
 	  	border-bottom: 1px solid #000000;
 	  	outline: 0;
@@ -9576,7 +9704,7 @@ img{
 		box-sizing: border-box; 
 		background: transparent; 
 		color: #936510; 
-		font-family: Karla; 
+		font-family: Gotham, sans-serif; 
 		font-style: normal;
 		font-weight: normal;
 		width: 100%;
@@ -9584,7 +9712,7 @@ img{
 
 	button.view-photos-btn {
 		box-sizing: border-box;
-		font-family: Karla; 
+		font-family: Gotham, sans-serif; 
 		font-style: normal;
 		font-weight: normal;
 		width: 100%;
@@ -9682,7 +9810,7 @@ img{
 .by-numbers .sub-lines
 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-	width: 450px; 
+	width: 100%; 
 	margin-bottom: 15px;
 	margin-left: 13px;
 }
@@ -9691,7 +9819,7 @@ img{
 	{
 		z-index: 1;
 		position: absolute;
-		top: 55%;
+		margin-top: -200px;
 		left: 10%;
 		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
 		padding: 15px 42px;
@@ -9834,10 +9962,14 @@ img{
 
 
 /*index*/
-.index .slide .content
+/*.index .content
 {
-	margin-top: -60px;
-}
+	margin-top: -40px;
+	margin-bottom: 60px;
+	position: relative;
+	margin-top: auto;
+	margin-bottom: auto;
+}*/
 
 /*slider text*/
 h3.header-title-txt 
@@ -9893,7 +10025,7 @@ h3.header-title-txt
 		font-style: normal;
 		font-weight: 325;
 		font-size: 16px;
-		line-height: 24px;
+		line-height: 26px;
 		color: #8A8A8A;
 	}
 
@@ -10093,6 +10225,27 @@ h3.header-title-txt
 
 .welcome-to-aquaria .btn-aquaria
 {
+	z-index: 1;
+	position: absolute;
+	padding: 15px 42px;
+	/*margin-top: 200px;*/
+	width: 201px;
+	height: 46px;
+	border: 2px solid #31BBD8;
+	box-sizing: border-box;
+	border-radius: 0;
+	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+
+.aquaria-haven-awaits .btn-aquaria .abt-title
+{
+	color: #31BBD8;
+}
+.aquaria-haven-awaits .btn-aquaria
+{
+	text-transform: uppercase;
 	z-index: 1;
 	position: absolute;
 	padding: 15px 42px;
@@ -10341,11 +10494,12 @@ h3.header-title-txt
 .aquaria-big-image .comments .comment-under-star
 {	
 	margin-top: 10px;
-	margin-left: 70px;
+	padding-left: 80px;
 	font-family: Gotham, sans-serif;
 	font-style: normal;
 	font-weight: 325;
 	font-size: 14px;
+	/*word-break: break-all;*/
 	line-height: 24px;
 	color: #3E3E3E;
 }
@@ -10365,11 +10519,11 @@ h3.header-title-txt
 .comments
 {
 	position: absolute;
-	margin-top: -350px;
-	margin-left: 600px;
+	margin-top: 150px;
+	/*margin-left: 600px;
 	background-color: #ffffff;
 	height: 235px;
-	width: 48%;
+	width: 48%;	*/
 }
 
 @media only screen and (width: 1024px)
@@ -10405,7 +10559,7 @@ h3.header-title-txt
 
 	.book-now-mobile-view
 	{
-		padding: 50px 30px 0px 30px !important;
+		/*padding: 50px 30px 0px 30px !important;*/
 	}
 
 	.contact-form-section
@@ -10420,7 +10574,7 @@ h3.header-title-txt
 
 	.about_us
 	{
-		padding: 50px 30px 0px 30px !important;
+		/*padding: 50px 30px 0px 30px !important;*/
 	}
 
 	.aquaria-big-image .comments
@@ -10436,12 +10590,12 @@ h3.header-title-txt
 
 	.rooms-page-section .promo-sec
 	{
-		padding: 50px 60px 0px 10px;
+		/*padding: 50px 60px 0px 10px;*/
 	}
 
 	.promo
 	{
-		padding: 50px 30px 0px 30px !important;
+		/*padding: 50px 30px 0px 30px !important;*/
 		overflow: hidden !important;
 	}
 
@@ -10469,7 +10623,7 @@ h3.header-title-txt
 	.accomodation .news-block .accomodation-btn
 	{
 		margin-top: 19px !important;
-		margin-left: 120px !important;
+		/*margin-left: 120px !important;*/
 	}
 
 	.accomodation .news-block-cocoons .accomodation-top-text-right img
@@ -10486,12 +10640,12 @@ h3.header-title-txt
 	.accomodation .news-block-cocoons .accomodation-btn
 	{
 		margin-top: 19px !important;
-		margin-left: 360px !important;
+		/*margin-left: 360px !important;*/
 	}
 
 	.accomodation
 	{
-		padding: 50px 30px 0px 30px !important;
+		/*padding: 50px 30px 0px 30px !important;*/
 	}
 
 	.location .flex-location-details .post-meta
@@ -10506,7 +10660,7 @@ h3.header-title-txt
 
 	.location .flex-location-details .details .view-photos-btn
 	{
-		margin-left: 160px !important;
+		/*margin-left: 160px !important;*/
 		width: 100%;
 		margin-top: -12px !important;
 	}
@@ -10514,12 +10668,13 @@ h3.header-title-txt
 	.location .flex-location-details
 	{
 		width: 100% !important;
-		margin-left: -90px !important;
+		/*margin-left: -90px !important;*/
 	}
 
 	.card-content-right-align-12 {
 		margin-top: -100px; 
-		width: 600px !important; 
+		padding-bottom: 5px;
+		/*width: 600px !important; */
 	}
 
 	.location
@@ -10528,11 +10683,11 @@ h3.header-title-txt
 		padding: 30px 40px 0px 40px !important;
 	}
 
-	.aquaria-big-image .comments
+	/*.aquaria-big-image .comments
 	{
 		margin-top: -280px !important;
 		margin-left: 500px;
-	}
+	}*/
 
 	.aquaria-big-image .comments h3
 	{
@@ -10640,6 +10795,24 @@ h3.header-title-txt
 
 @media only screen and (width: 320px)
 {
+	/*.book-now-mobile-view
+	{
+		margin-top: 100px !important;
+	}*/
+	.aquaria-haven-awaits .btn-aquaria
+	{
+		display: block;
+		margin-right: auto;
+		margin-left: auto; 
+		position: static;
+		margin-bottom: 30px !important;
+	}
+
+	.section-margin
+	{
+		margin-top: 30px !important;
+	}
+
 	.book-select-room .auto-container .book-now .room-price .inner-box .justify-content-end button
 	{
 		margin-left: -270px !important;
@@ -10667,7 +10840,7 @@ h3.header-title-txt
 	}
 	.contact-form-section .auto-container
 	{
-		margin-top: -100px !important;
+		/*margin-top: -100px !important;*/
 	}
 	.contact-form-section .auto-container .info-column .social-icons-flex
 	{
@@ -10675,11 +10848,11 @@ h3.header-title-txt
 	}
 	.our-philosophy .auto-container .sec-aquaria-title .sec-title p
 	{
-		margin-top: -150px !important;
+		/*margin-top: -150px !important;*/
 	}
 	.by-numbers .auto-container .by-number-text img
 	{
-		margin-left: 120px !important; 
+		/*margin-left: 120px !important; */
 	}
 	.by-numbers .auto-container .sec-aquaria-title .sec-title img
 	{
@@ -10687,11 +10860,11 @@ h3.header-title-txt
 	}
 	.about_us
 	{
-		margin: -50px 0px 20px 0px !important;
+		/*margin: -50px 0px 20px 0px !important;*/
 	}
 	.rooms-page-section .promo-sec .justify-content-end .promo-btn
 	{
-		margin-left: 75px !important;
+		/*margin-left: 75px !important;*/
 	}
 
 	.accomodation-index .content h3
@@ -10701,7 +10874,7 @@ h3.header-title-txt
 
 	.accomodation .news-block .accomodation-btn
 	{
-		left: -10px !important;	
+		/*left: -10px !important;	*/
 	}
 	.accomodation .news-block .accomodation-top-text-right  img.crusoe_logo
 	{
@@ -10718,7 +10891,7 @@ h3.header-title-txt
 
 	.accomodation .sec-aquaria-title .sec-title
 	{
-		margin: 180px 0px 20px 0px !important;
+		/*margin: 180px 0px 20px 0px !important;*/
 	}
 
 	.accomodation .sec-aquaria-title .sec-title h3
@@ -10759,6 +10932,11 @@ h3.header-title-txt
 }
 
 @media only screen and (max-width: 360px){
+	.section-margin
+	{
+		margin-top: 30px !important;
+	}
+
 .book-select-room .auto-container .book-now .room-price .justify-content-end button
 	{
 		margin-left: -320px !important;
@@ -10769,12 +10947,12 @@ h3.header-title-txt
 	}
 .book-now-mobile-view
 {
-	margin-top: 250px !important;
+	margin-top: 60px !important;
 }
 
 .contact-form-section
 {
-	margin-top: 200px !important;
+	/*margin-top: 200px !important;*/
 }
 .contact-form-section .info-column .social-icons-flex
 {
@@ -10782,11 +10960,11 @@ h3.header-title-txt
 }
 .our-philosophy .sec-aquaria-title .sec-title p
 {
-	margin-top: -210px !important;	
+	/*margin-top: -210px !important;	*/
 }
 .by-numbers .by-number-text img
 {
-	margin-left: 140px; 
+	/*margin-left: 140px; */
 }
 .by-numbers .sec-aquaria-title .sec-title img
 {
@@ -10794,22 +10972,22 @@ h3.header-title-txt
 }
 .about_us .sec-aquaria-title .sec-title
 	{
-		margin-top: 260px;
+		/*margin-top: 260px;*/
 	}
 .rooms-page-section .promo-sec .promo-btn
 	{
-		margin-left: 100px !important;
+		/*margin-left: 100px !important;*/
 	}
 .accomodation .news-block-cocoons .accomodation-btn
 	{
-		margin-left: 70px !important;
+		/*margin-left: 70px !important;*/
 
 	}
 
 .accomodation .news-block .accomodation-btn
 	{
 		margin-top: 30px !important;
-		margin-left: 70px !important;
+		/*margin-left: 70px !important;*/
 
 	}
 
@@ -10825,13 +11003,14 @@ h3.header-title-txt
 
 .accomodation .sec-aquaria-title .sec-title
 	{
-		margin: 240px 0px 20px 0px;
+		/*margin: 240px 0px 20px 0px;*/
 	}
 
-.location
+/*.location
 	{
 		padding: 240px 20px 0px 20px;
-	}
+	}*/
+
 .find-accomodation .btn
 	{
 		margin-left: -250px !important;
@@ -10873,12 +11052,12 @@ h3.header-title-txt
 
 .book-now-mobile-view .find-accomodation-book .book-now form
 {
-	margin-left: -30px !important;
+	/*margin-left: -30px !important;*/
 }
 
 .book-now-mobile-view
 	{
-		margin-top: 250px !important;
+		/*margin-top: 250px !important;*/
 	}
 .contact-form-section .info-column .social-icons-flex
 {
@@ -10886,7 +11065,7 @@ h3.header-title-txt
 }
 .by-numbers .by-number-text img
 {
-	margin-left: 145px !important; 
+	/*margin-left: 145px !important; */
 }
 .by-numbers .sec-aquaria-title .sec-title img
 {
@@ -10894,7 +11073,7 @@ h3.header-title-txt
 }
 .rooms-page-section .promo-sec .promo-btn
 	{
-		margin-left: 105px !important;
+		/*margin-left: 105px !important;*/
 	}
 
 .accomodation .news-block-cocoons .accomodation-top-text-left  img.cocoons
@@ -10932,12 +11111,18 @@ h3.header-title-txt
 @media only screen and (width: 411px){
 .by-numbers .by-number-text img
 {
-	margin-left: 165px; 
+	/*margin-left: 165px; */
 }
-.location
+
+.form-section
+	{
+		margin-top: 80px;
+	}
+
+/*.location
 	{
 		padding: 330px 20px 0px 20px;
-	}
+	}*/
 
 .aquaria-haven-awaits .heaven-awaits-grid .grid img
 	{
@@ -10962,31 +11147,41 @@ h3.header-title-txt
 }
 
 @media (height: 823px) and (width: 411px){
+.form-section
+{
+	margin-top: 170px;
+}
+
+.section-margin
+{
+	margin-top: 210px !important;
+}
+
 .book-now-mobile-view
 {
-	margin-top: 400px !important;
+	/*margin-top: 400px !important;*/
 }
 .contact-form-section
 {
-	margin-top: 400px !important;
+	/*margin-top: 400px !important;*/
 }
 
 .our-philosophy .sec-aquaria-title .sec-title p
 {
-	margin-top: -390px !important;	
+	/*margin-top: -390px !important;	*/
 }
 .about_us
 {
-	margin: 130px 0px 20px 0px;
+	/*margin: 130px 0px 20px 0px;*/
 }
 .accomodation .sec-aquaria-title .sec-title
 	{
-		margin: 430px 0px 20px 0px;
+		/*margin: 430px 0px 20px 0px;*/
 	}
-.location
+/*.location
 	{
 		padding: 430px 20px 0px 20px;
-	}
+	}*/
 .index .find-accomodation .book-now
 	{
 		margin: 150px 0px 0px 0px;
@@ -11000,21 +11195,30 @@ h3.header-title-txt
 }
 
 @media only screen and (width: 414px){
+.form-section
+{
+	margin-top: 80px;
+}
+
+.section-margin
+{
+	margin-top: 120px !important;
+}
 .book-now-mobile-view .find-accomodation-book .book-now form
 {
-	margin-left: 10px !important;
+	/*margin-left: 10px !important;*/
 }
 .contact-form-section
 	{
-		margin-top: 350px !important;
+		/*margin-top: 350px !important;*/
 	}
 .our-philosophy .sec-aquaria-title .sec-title p
 {
-	margin-top: -320px !important;
+	/*margin-top: -320px !important;*/
 }
 .by-numbers .by-number-text img
 {
-	margin-left: 165px !important; 
+	/*margin-left: 165px !important; */
 }
 .by-numbers .sec-aquaria-title .sec-title img
 {
@@ -11022,7 +11226,7 @@ h3.header-title-txt
 }
 .about_us
 {
-	margin: 60px 0px 20px 0px !important;
+	/*margin: 60px 0px 20px 0px !important;*/
 }
 .accomodation .news-block-cocoons .accomodation-top-text-left  img.cocoons
 	{
@@ -11038,13 +11242,13 @@ h3.header-title-txt
 	}
 .accomodation .sec-aquaria-title .sec-title
 	{
-		margin: 360px 0px 20px 0px !important;
+		/*margin: 360px 0px 20px 0px !important;*/
 	}
 
-.location
+/*.location
 	{
 		padding: 360px 20px 0px 20px !important;
-	}
+	}*/
 .aquaria-haven-awaits .heaven-awaits-grid .grid img
 	{
 		margin-left: 125px;
@@ -11053,36 +11257,45 @@ h3.header-title-txt
 }
 
 @media (height: 812px) and (width: 375px){
+.form-section
+{
+	margin-top: 170px;
+}
+
+.section-margin
+{
+	margin-top: 200px !important;
+}
 .book-now-mobile-view
 	{
-		margin-top: 400px !important;
+		/*margin-top: 400px !important;*/
 	}
 .contact-form-section
 	{
-		margin-top: 400px !important;
+		/*margin-top: 400px !important;*/
 	}
 .our-philosophy .sec-aquaria-title .sec-title p
 {
-	margin-top: -400px !important;
+	/*margin-top: -400px !important;*/
 }
 .about_us
 {
-	margin: 120px 0px 20px 0px !important;
+	/*margin: 120px 0px 20px 0px !important;*/
 }
 .accomodation .news-block .accomodation-btn
 	{
-		margin-left: 80px !important;
+		/*margin-left: 80px !important;*/
 	}
 
 .accomodation .sec-aquaria-title .sec-title
 	{
-		margin: 440px 0px 20px 0px !important;
+		/*margin: 440px 0px 20px 0px !important;*/
 	}
 
-.location
+/*.location
 	{
 		padding: 440px 20px 0px 20px !important;
-	}
+	}*/
 .welcome-to-aquaria .btn-aquaria
 	{
 		left: -8px;
@@ -11097,25 +11310,24 @@ h3.header-title-txt
 	}
 }
 
-	.news-block .accomodation-btn
-	{
-		background: #31BBD8;
-		width: 185px;
-		margin-left: 150px;
-		padding: 17px 40px;
-		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
-		height: 44px;
-	}
 
-	.news-block-cocoons .accomodation-btn
-	{
-		background: #31BBD8;
-		width: 185px;
-		margin-left: 490px !important;
-		padding: 17px 40px;
-		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
-		height: 44px;
-	}
+.news-block .accomodation-btn
+{
+	background: #31BBD8;
+	width: 185px;
+	padding: 17px 40px;
+	box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+	height: 44px;
+}
+
+.news-block-cocoons .accomodation-btn
+{
+	background: #31BBD8;
+	width: 185px;
+	padding: 17px 40px;
+	box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+	height: 44px;
+}
 
 	.news-block .accomodation-btn p
 	{
@@ -11169,13 +11381,13 @@ h3.header-title-txt
 
 	.gallery
 	{
-		padding: 130px 50px 20px 110px;
+		/*padding: 130px 50px 20px 110px;*/
 	}
 
-	.location
+	/*.location
 	{
 		padding: 130px 50px 20px 110px;
-	}
+	}*/
 
 	.by-numbers
 	{
@@ -11219,7 +11431,7 @@ h3.header-title-txt
 
 	.about_us
 	{
-		padding: 130px 50px 20px 110px;
+		/*padding: 130px 50px 20px 110px;*/
 	}
 
 	.rooms-page-section .accomodation-btn
@@ -11275,8 +11487,8 @@ h3.header-title-txt
 
 	.rooms-page-section .promo-sec
 	{
-		margin-left: 50px;
-		max-width: 96%;
+		/*margin-left: 50px;*/
+		/*max-width: 96%;*/
 	}
 
 	.rooms-page-section .logo-brand img
@@ -11288,7 +11500,7 @@ h3.header-title-txt
 
 	.promo
 	{
-		padding: 10px 50px 40px 110px;
+		/*padding: 10px 50px 40px 110px;*/
 	}
 
 	.promo .news-block .promo-top-text
@@ -11569,8 +11781,8 @@ h3.header-title-txt
 	.btn
 	{
 		z-index: 1;
-		position: absolute;
-		top: 80%;
+		/*position: absolute;*/
+		/*top: 850%;*/
 		left: -20%;
 		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
 		padding: 15px 42px;
@@ -11581,7 +11793,33 @@ h3.header-title-txt
 		font-family: Gotham-font;
 		font-style: normal;
 		font-weight: lighter;
+		margin-bottom: 10px; 
 	}
+	.promo-btn
+	{
+		margin-top: -50px;
+	}
+	/*.promo-btn p
+	{
+		text-align: center;
+	}
+	.promo-btn
+	{
+		z-index: 1;
+		position: static;
+		top: 850%;
+		left: -20%;
+		margin-bottom: 10px;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 400px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}*/
 
 	/*.btn
 	{
@@ -11736,7 +11974,7 @@ h3.header-title-txt
 
 	.accomodation
 	{
-		padding: 130px 50px 20px 110px;
+		/*padding: 130px 50px 20px 110px;*/
 	}
 	.news-block .accomodation-top-text-right
 	{
@@ -11949,7 +12187,7 @@ h3.header-title-txt
 
 	.card-content-right-align-12 {
 		margin-top: -100px; 
-		width: 700px; 
+		/*width: 700px; */
 	}
 
 	.active-bar {
@@ -12008,7 +12246,7 @@ h3.header-title-txt
 	  	font-family: inherit;
 	  	width: 100%;
 	  	border: 0;
-	  	border-bottom: 1px solid grey;
+	  	border-bottom: 2px solid #BFD6E3;
 	  	outline: 0;
 	  	font-size: 16px;
 	  	color: #212121;
@@ -12115,10 +12353,10 @@ h3.header-title-txt
 	}
 
 	.flex-location-details {
-		margin-left: -150px; 
+		/*margin-left: -150px; */
 		display: flex; 
 		flex-direction: row; 
-		padding: 50px 50px;
+		/*padding: 50px 50px;*/
 	}
 
 	.btn-style-outline {
@@ -12126,23 +12364,29 @@ h3.header-title-txt
 		box-sizing: border-box; 
 		background: transparent; 
 		color: #1D1D1D; 
-		font-family: Karla, sans-serif; 
+		font-family: Gotham, sans-serif; 
 		font-style: normal;
 		font-weight: normal;
+		font-size: 12px;
+		letter-spacing: 0.15em;
+		padding: 5px 20px 5px 20px;
 	}
 	.view-photos-btn {
 		box-sizing: border-box;
-		font-family: Karla; 
+		font-family: Gotham, sans-serif; 
 		font-style: normal;
 		font-weight: normal;
+		font-size: 12px;
+		letter-spacing: 0.15em;
+		padding: 5px 20px 5px 20px;
 	}
 } 
 
 p.heading-title {
 	font-family: Gotham, sans-serif;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 25px;
+	font-weight: 300;
+	font-size: 28px;
 	line-height: 34px;
 	text-align: left;
 	letter-spacing: 0.15em;
@@ -12851,17 +13095,6 @@ input[type=checkbox]:checked:disabled + label:before {
 		height: 50px;
 		border-bottom: 1px solid #000000;
 	}
-	/*.book-now-mobile-view .book-now .form__group
-	{
-		height: 100px;
-		padding: 10px;
-	}
-	.book-now-mobile-view .book-now .form__group .form__field
-	{
-		height: 50px;
-		border-bottom: 1px solid #000000; 
-		background-color: #EAF0EF;
-	}*/
 	.book-now-mobile-view
 	{
 		margin-top: 100px;
@@ -12907,24 +13140,29 @@ input[type=checkbox]:checked:disabled + label:before {
 	{
 		margin-top: 40px;
 	}
+	.our-philosophy .news-block
+	{
+		margin-top: 20px;
+	}
 	.our-philosophy
 	{
 		margin-top: 50px !important;	
 	}
 	.mission-section .our-vision
 	{
-		text-align: center;
+		text-align: left;
+		/*text-align: center;*/
 		width: 100%;
-		margin-left: 100px;
-		margin-top: 50px;
+		margin-left: 10px;
+		margin-top: 10px;
 	}
 	.mission-section .about-card-btn
 	{
-		box-shadow: none;
+		height: 280px;
+		margin-top: -150px;
+		margin-left: -20px;
 		margin-bottom: -50px !important;
-		/*height: 250px;*/
-		/*margin-top: -100px;*/
-		position: static;
+		background-color: #ffffff;
 	}
 	.by-numbers .by-number-text
 	{
@@ -12943,7 +13181,7 @@ input[type=checkbox]:checked:disabled + label:before {
 	}
 	.about_us
 	{
-		margin-top: 100px;
+		/*margin-top: 100px;*/
 	}
 	.about-index .content h3
 	{
@@ -12956,7 +13194,7 @@ input[type=checkbox]:checked:disabled + label:before {
 
 	.rooms-page-section .lower-content .logo-brand
 	{
-		margin-left: 150px;
+		/*margin-left: 150px;*/
 	}
 
 	.rooms-page-section .lower-content .text
@@ -13002,15 +13240,11 @@ input[type=checkbox]:checked:disabled + label:before {
 		margin-top: -20px;
 		padding-right: 15px;
 		color: #000000;
-		/*border-bottom: 1px solid #000000; */
-		/*padding:2px;*/
-		/*background-color: red;*/
 	}
 	.promo .select-location .form__group .form__field
 	{
 		height: 50px;
 		border-bottom: 1px solid black;
-		/*background-color: red;*/
 	}
 	.promo .accomodation-top-text-right .text
 	{
@@ -13036,26 +13270,26 @@ input[type=checkbox]:checked:disabled + label:before {
 		margin-top: -10px;
 		text-align: right;
 	}
-	.accomodation .accomodation-top-text-left h3
+	/*.accomodation .accomodation-top-text-left h3
 	{
 		margin-left: 175px;
-	}
+	}*/
 	.accomodation .accomodation-top-text-left img
 	{
 		margin-top: 50px;
-		margin-left: 200px;
+		/*margin-left: 200px;*/
 	}
-	.accomodation  .news-block .btn
+	/*.accomodation  .news-block .btn
 	{
 		margin-left: -120px !important;
-	}
+	}*/
 
-	.accomodation  .news-block-cocoons .btn
+	/*.accomodation  .news-block-cocoons .btn
 	{
 		padding-bottom: 50px;
 		margin-top: 20px;
 		margin-left: 260px !important;
-	}
+	}*/
 	.accomodation .accomodation-top-text-right .text
 	{
 		margin-top: -10px;
@@ -13066,7 +13300,7 @@ input[type=checkbox]:checked:disabled + label:before {
 	}
 	.accomodation
 	{
-		margin-top: 100px;
+		/*margin-top: 100px;*/
 	}
 	.accomodation-index .content h3
 	{
@@ -13100,10 +13334,12 @@ input[type=checkbox]:checked:disabled + label:before {
 		margin-top: -45px !important;
 		width: 220px;
 	}
+
 	.location
 	{
 		margin-top: 100px;
 	}
+
 	.location-image .content h3
 	{
 		font-size: 45px;
@@ -13112,14 +13348,14 @@ input[type=checkbox]:checked:disabled + label:before {
 	{
 		top: 40px;
 	}
-	.aquaria-big-image .comments
+	/*.aquaria-big-image .comments
 	{
 		margin-left: 10px;
 		position: static;
 		margin-top: 30px;
 		width: 100%;
 		margin-bottom: 50px;
-	}
+	}*/
 	.plan-your-day #plans .nav-next
 	{
 		margin-right: 550px; 
@@ -13338,6 +13574,24 @@ input[type=checkbox]:checked:disabled + label:before {
 	}
 }
 
+/*section margin*/
+.section-margin
+{
+	position:static;
+	max-width:1210px;
+	padding:30px 20px;
+	margin:0 auto;
+}
+
+.our-philosophy
+{
+	margin-top: 100px;
+}
+.about-us-top-text h3
+{
+	color: #00516F;
+	width: 100%;
+}
 /*IF IPAD TOGGLE*/
 /*@media only screen and (min-width: 800px) {*/
  

@@ -55,22 +55,6 @@
 		font-size: 10px;
 	}
 
-	/*.l-btn
-	{
-		z-index: 1;
-		position: absolute;
-		top: -16%;
-		left: 3%;
-		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
-		padding: 15px 42px;
-		width: 210px;
-		height: 50px;
-		background: #FFFFFF;
-		border-radius: 0;
-		font-family: Gotham-font;
-		font-style: normal;
-		font-weight: lighter;
-	}*/
 
 	.l-right-arrow
 	{
@@ -132,6 +116,55 @@
 		margin-top: 2px;
 		font-size: 10px;
 	}
+}
+
+.gallery-page-section{
+  position:relative;
+  padding:10px 0px 100px;
+  background-color:#ffffff;
+}
+
+.gallery-page-section .outer-container{
+  padding:0px 710px;
+}
+
+.gallery-page-section .filters{
+  position:relative;
+  margin-bottom:60px;
+  margin-top:60px;
+}
+
+.gallery-page-section .filters .filter-tabs{
+  position:relative;
+}
+
+.gallery-page-section .filters li{
+  position: relative;
+    color: #3e4346;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+  margin:0px 14px 5px;
+  display:inline-block;
+  background-color: #cbdddd;
+  width: auto;
+  padding: 15px 15px;
+  box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15)
+  text-transform:capitalize;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.gallery-page-section .filters .filter.active,
+.gallery-page-section .filters .filter:hover{
+    color:#ffffff;
+  background-color: #1e92a9;
+}
+
+.gallery-item.mix{
+  display:none;
 }
 
 </style>
@@ -215,7 +248,7 @@
 
     </header>
 
-	<section class="contact-us main-slider">
+<!-- 	<section class="contact-us main-slider">
 		<div class="slider-box">
 			<div class="slide">
             	<div class="image-layer" style="background-image:url(images/gallery/Group_113.png); height: 100%"></div>
@@ -228,267 +261,265 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
+
+  <section class="page-title" style="background-image:url(images/gallery/Group_113.png);">
+    <div class="auto-container">
+      <div class="content text-center">
+        <h3 class="header-title-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Gallery</h3>
+        <img src="images/icons/wave.png" class="wave">
+        <p class="header-description-txt wow fadeIn " data-wow-delay="500ms" data-wow-duration="1500ms">Check ou collection of photos and be amazed</p>
+      </div>
+    </div>
+  </section>
+
+<section class="auto-container auto-container-mobile">
+    <div class="row justify-content-center sec-aquaria-title">
+      <div class="sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
+        <p>Our Gallery</p>
+        <h3 class="text-center">Check our collections</h3>
+        <br>
+        <img src="images/icons/wave.png">
+        <br><br>
+        <div class="text text-center">From timeless icons in buzzing cities to tranquil retreats in hidden corners, Belmond offers unforgettable travel experiences in pioneering</div>
+      </div>
+    </div>
+</section>
 
 
-<!-- 
-	<div class="controls">
-  
-  <button class="filter all" data-filter="all">Show All</button>
-  <button class="filter" data-filter=".motion-graphics">Motion Graphics</button>
-  <button class="filter" data-filter=".live-action">Live Action</button>
-   <button class="filter" data-filter=".multimedia">Multimedia</button>
-  <button class="filter" data-filter=".stop-motion">Stop Motion</button>
-  <button class="filter" data-filter=".experiential">Experiential</button>
-</div>
+<!-- Crusoe Cabins: Gallery Page Section -->
+    <section class="gallery-page-section">
+      <div class="auto-container">
+        <!--MixitUp Galery-->
+              <div class="mixitup-gallery">
+                  
+                  <!--Filter-->
+                  <div class="filters clearfix">
+                    
+                    <ul class="filter-tabs filter-btns text-center clearfix">
+                          <li class="active filter" data-role="button" data-filter="all">All</li>
+                          <li class="filter" data-role="button" data-filter=".photos">Photos</li>
+                          <li class="filter" data-role="button" data-filter=".videos">Videos</li>
+                      </ul>
+                      
+                  </div>
+                  
+                  <div class="filter-list row justify-content-center clearfix">
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_26.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_26.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_27.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_27.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_28.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_28.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_29.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_29.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_30.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_30.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_31.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_31.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_32.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_32.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            
+            <!-- Gallery Item -->
+            <div class="gallery-item mix all photos col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <figure class="image-box">
+                  <img src="images/gallery/Group_34.png" alt="">
+                  <!--Overlay Box-->
+                  <div class="overlay-box">
+                    <div class="overlay-inner">
+                      <div class="content">
+                        <h3 class="gallery-title">Aquaria Pool</h3>
+                        <div class="row gall-desc clearfix justify-content-center">
+                          <div class="col-sm-12">
+                            <p class="gallery-description">Check our collection of photos and be amazed</p>
+                          </div>
+                        </div>
+                        <a href="images/gallery/Group_34.png" data-fancybox="gallery-4" data-caption="" class="link"><span class="icon flaticon-full-screen"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-heart"></span></a>
+                        <a href="" class="link"><span class="icon flaticon-share"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
 
-<div class="pager-list">
-</div>
-
-
-
-<div id="Container" class="container">
-  
-  <a class="mix rockbox motion-graphics live-action" href="http://www.rockbox.tv/rockbox">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59650b97ff7c507f4711da8e/1499794329066/New-RockboxReel.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-          2017 Reel
+          <!--Styled Pagination-->
+          <ul class="styled-pagination centered">
+            <li><a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#"><span class="fa fa-angle-right"></span></a></li>
+          </ul>                
+          <!--End Styled Pagination-->
+          
         </div>
       </div>
-  </a>
+    </section>
 
-  <a class="mix forevercar stop-motion" href="http://www.rockbox.tv/forevercar">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593819b73a041152da73ee61/1496848826655/New-FOREVERCAR.jpg" >
-      <div class="overlay">
-        <div class="hover-text">
-        Brand Video
-        </div>
-      </div>
-  </a>
-
-  <a class="mix stackify live-action" href="http://www.rockbox.tv/stackify">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d9e37c581aa87f67b6a/1496870304023/New-STACKIFY.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-         Brand Video
-        </div>
-      </div>
-  </a>
-
-  <a class="mix vikings motion-graphics experiential" href="http://www.rockbox.tv/vikings">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593812cb37c581a5f59d8ded/1496848974849/New-VIKINGS.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-         US bank Stadium Fan Experience
-        </div>
-      </div>
-  </a>
-  
-  <a class="mix dimin multimedia" href="http://www.rockbox.tv/dimensional-innovations">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868d5bebafb5a891bd9c5/1496869078894/New-DI.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Brand Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix mylo motion-graphics" href="http://www.rockbox.tv/mylo">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d9af5e2311d32d770a3/1496870300200/New-MYLO2.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-          "You Be You" Content Campaign
-        </div>
-      </div>
-  </a>
-
-<a class="mix helzberg live-action" href="http://www.rockbox.tv/helzberg">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593819ba725e25b78ccfc5c7/1496848828212/New-HELZBERG.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-          "We Propose You Propose" Campaign
-        </div>
-      </div>
-  </a>
-
-<a class="mix action-pact live-action" href="http://www.rockbox.tv/actionpact">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593812b5ebbd1a37bb599eb2/1496850588555/New-ACTIONPACT.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Kids" Awareness Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix skydiving live-action multimedia" href="http://www.rockbox.tv/skydiving">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d9bc534a5099dc50abe/1496870302882/New-SKYDIVING.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "The Turning Point" Brand Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix hr-block motion-graphics multimedia" href="http://www.rockbox.tv/hrblock">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593819b986e6c0c673b29ae3/1496848827863/New-H%26RBLOCK.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        SEO Video Campaign
-        </div>
-      </div>
-  </a>
-
-<a class="mix surface motion-graphics multimedia stop-motion" href="http://www.rockbox.tv/surface">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d99be65948c775d16e2/1496870299262/New-MICROSOFT-SURFACE.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Microsoft Surface "Infodoodles"
-        </div>
-      </div>
-  </a>
-
-<a class="mix flexferm multimedia" href="http://www.rockbox.tv/flexferm">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593819b7a5790a9793be3c37/1496849019370/New-FLEXFERM.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "You're Good" Product Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix xbox motion-graphics experiential" href="http://www.rockbox.tv/xboxone">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593812cb1b10e311bfa0b0e9/1496848967573/New-XBOX-ONE.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Xbox Case Study
-        </div>
-      </div>
-  </a>
-
-<a class="mix azura motion-graphics" href="http://www.rockbox.tv/azura-1">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868cb46c3c45036a29a7d/1496869068972/New-AZURA.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Bright Side" Video Content Campaign
-        </div>
-      </div>
-  </a>
-
-<a class="mix bing multimedia" href="http://www.rockbox.tv/bing">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868d1b8a79bf92b391187/1496869076493/New-BING.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Search App Videos
-        </div>
-      </div>
-  </a>
-
-<a class="mix sunlighten live-action" href="http://www.rockbox.tv/sunlighten">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59387068ff7c50de093b662d/1496871018983/New-SUNLIGHTEN.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Invitation" Brand Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix trabon live action multimedia" href="http://www.rockbox.tv/trabon">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59387068b8a79bf92b399dc5/1496871019377/New-TRABON.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Marketing Guru" Product Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix lincoln-bridge live-action" href="http://www.rockbox.tv/lincoln-bridge">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d995016e1124f0564da/1496870299603/New-LINCOLNBRIDGE.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Haymarket" Case Study Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix kansas-historical live-action experiential" href="http://www.rockbox.tv/khf">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593819bb3e00be5495b854d6/1496848830233/New-KHF.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Brand Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix billen-bros live-action" href="http://www.rockbox.tv/billen-bros">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868cdebbd1a3e18b2ab21/1496869071765/New-BILLENBROS.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Musical Sentences"
-        </div>
-      </div>
-  </a>
-
-<a class="mix spx multimedia" href="http://www.rockbox.tv/spx">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d9ce4fcb5dc218447cb/1496870303171/New-SPX.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        "Day One" Brand Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix ku live-action" href="http://www.rockbox.tv/pageku">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868da414fb51219193e06/1496869085404/New-KU.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Jayhawk
-        </div>
-      </div>
-  </a>
-
-<a class="mix shield motion-graphics" href="http://www.rockbox.tv/shield">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/59386d9a17bffcad27e8d001/1496870304763/New-SHIELD.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Brand Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix travois motion-graphics" href="http://www.rockbox.tv/travois">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/5938706a2e69cf5e64efcb9f/1496871024071/New-TRAVOIS.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Process Video
-        </div>
-      </div>
-  </a>
-
-<a class="mix aws motion-graphics multimedia" href="http://www.rockbox.tv/aws">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868c920099e865ce1d39e/1496869067282/New-AWS.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-        Austin Walsh Studio Reel
-        </div>
-      </div>
-  </a>
-
-<a class="mix lily-stork stop-motion" href="http://www.rockbox.tv/lily-stork">
-      <img class="image" src="https://static1.squarespace.com/static/57b8bd3946c3c47fea20bf71/593812a01e5b6c832fe2c0c4/593868dd6a49631217604066/1496869087445/New-LILYSTORK.jpg">
-      <div class="overlay">
-        <div class="hover-text">
-       "Letters"
-        </div>
-      </div>
-  </a>
- 
-  <div class="gap"></div>
-  <div class="gap"></div>
-</div>
- -->
-
-	<section class="gallery">
+	<!-- <section class="gallery auto-container">
 		<div class="row justify-content-center sec-aquaria-title">
 			<div class="sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
 				<p>Our Gallery</p>
@@ -515,10 +546,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
-	<section class="aquaria-big-image">
+	<!-- <section class="aquaria-big-image">
 		<img src="images/index/Group_113.png" style="background-size: cover">
 		<div class="comments">
 			<div class="col-md-10">
@@ -535,92 +566,111 @@
 				<p><b>- Dimaunahan Family</b></p>
 			</div>
 		</div>
-	</section>
+	</section> -->
+  <section class="aquaria-big-image">
+    <div class="d-flex justify-content-end">
+    <img src="images/index/Group_113.png" style="background-size: cover">
+      <div class="row card col-lg-6 col-sm-8 col-11 comments" style="border: none;">
+        <div class="col-lg-10">
+          <img src="images/icons/quote_1.png">
+          <h3>Thank you for sharing this beautiful property with us! Absolute perfect for 3 families</h3>
+        </div>
+        <div class="col-lg-12 star">
+          <img src="images/icons/star.png">
+        </div>
+        <div class="col-lg-12 comment-under-star">
+          <p>Proident ut veniam est quis proident proident ad incididunt in pariatur. Nostrud nisi mollit eu esse eiusmod cupidatat culpa id commodo velit est aute commodo. Commodo culpa qui dolore occaecat. </p>
+        </div>
+        <div class="col-lg-12 text-right">
+          <p><b>- Dimaunahan Family</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 	<section class="news-section" style="background: #31BBD8;">
-		<div class="auto-container">
-			<div class="row clearfix">
-				<div class="col-md-9">
-					<img src="images/logo/aquaria_w.png">
-					<br>
-					<ul class="social-icons-flex" style="margin-top: 30px;color:#ffffff">
+    <div class="auto-container">
+      <div class="row clearfix">
+        <div class="col-lg-9 col-md-12 text-center text-sm-left">
+          <img src="images/logo/aquaria_w.png">
+          <br>
+          <ul class="social-icons-flex" style="margin-top: 30px;color:#ffffff">
                         <li class="social-icons-margin">
-                        	<span>Home</span>
+                          <a href="" style="color: #ffffff;"><span>Home</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>About Us</span>
+                          <a href="" style="color: #ffffff;"><span>About Us</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>Projects</span>
+                          <a href="" style="color: #ffffff;"><span>Projects</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>Locations</span>
+                          <a href="" style="color: #ffffff;"><span>Locations</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>Connect</span>
-                        </li>
-                    </ul>
-
-					<ul class="social-icons-flex social-media-icons">
-                        <li class="social-icons-margin">
-                        	<a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a>
-                        </li>
-                        <li class="social-icons-margin">
-                        	<a href="#" target="__blank"><span class="fab fa-twitter"></span></a>
-                        </li>
-                        <li class="social-icons-margin">
-                        	<a href="#" target="__blank"><span class="fab fa-instagram"></span></a>
+                          <a href="" style="color: #ffffff;"><span>Connect</span></a>
                         </li>
                     </ul>
 
-				</div>
+          <ul class="social-icons-flex social-media-icons">
+                        <li class="social-icons-margin">
+                          <a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                          <a href="#" target="__blank"><span class="fab fa-twitter"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                          <a href="#" target="__blank"><span class="fab fa-instagram"></span></a>
+                        </li>
+                    </ul>
+        </div>
 
-				<div class="col-md-3 pt-4">
-					<div class="text text-right">
-						<p class="t-copyright" style="color:#ffffff">&#x24B8;2020 Aquaria Water Park.<br>All Rights Reserved.</p>
-					</div>
-				</div>
-			</div><hr style="border: 0.04em solid #ffffff">
-		</div>
-	<!-- </section>
-	
+        <div class="col-lg-3 col-md-12 pt-4">
+          <div class="text">
+            <p class="t-copyright text-lg-right text-sm-right text-center" style="color:#ffffff">&#x24B8;2020 Aquaria Water Park.<br>All Rights Reserved.</p>
+          </div>
+        </div>
+      </div><hr style="border: 0.01em solid #ffffff">
+    </div>
+  <!-- </section>
+  
     <footer class="main-footer" style="background: #31BBD8;"> -->
-		<div class="auto-container">
-			<div class="row clearfix">
-				<div class="col-md-9">
-					<p class="text-left vsp" style="color:#ffffff">Visit our sister properties</p>
-					<br>
-					<ul class="social-icons-flex" style="margin-top: -20; color:#ffffff">
+    <div class="auto-container">
+      <div class="row clearfix">
+        <div class="col-md-9">
+          <p class="text-lg-left text-sm-left text-center vsp" style="color:#ffffff">Visit our sister properties</p>
+          <br>
+          <ul class="social-icons-flex" style="margin-top: -20; color:#ffffff">
                         <li class="social-icons-margin">
-                        	<span>Cocoons</span>
+                          <a href="" style="color: #ffffff"><span>Cocoons</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>Aquaria</span>
+                          <a href="" style="color: #ffffff"><span>Aquaria</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>Aqua</span>
+                          <a href="" style="color: #ffffff"><span>Aqua</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>Boardwalk</span>
+                          <a href="" style="color: #ffffff"><span>Boardwalk</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>The Colony</span>
+                          <a href="" style="color: #ffffff"><span>The Colony</span></a>
                         </li>
                         <li class="social-icons-margin">
-                        	<span>The Walk</span>
+                          <a href="" style="color: #ffffff"><span>The Walk</span></a>
                         </li>
                     </ul>
-				</div>
+        </div>
 
-				<div class="col-md-3 pt-4">
-					<div class="text">
-						<img src="images/logo/Millennial_w.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="col-md-3 pt-4">
+          <div class="text text-lg-right text-sm-right text-center">
+            <img src="images/logo/Millennial_w.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 	
 </div>  
 <!--End pagewrapper-->
@@ -673,6 +723,24 @@
 <script src="js/script.js"></script>
 <script src="js/mixitup.js"></script>
 <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+<!-- <script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/scrollbar.js"></script> -->
+<script src="js/script.js"></script>
+<!-- <script src="assets/vendors/highlight.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ -->
 <!-- <script type="text/javascript">
 	$(function(){
   $('#Container').mixItUp();
