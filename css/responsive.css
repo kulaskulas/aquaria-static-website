@@ -137,6 +137,12 @@
 
 @media (min-width: 665px) and (max-width: 767px)
 {
+	.book-btn p
+	{
+		text-align: center;
+		margin-top: -5px;
+		font-size: 12px;
+	}
 	.by-numbers .by-number-text h3
 	{
 		text-align: right;
@@ -440,7 +446,6 @@
 }
 
 @media only screen and (max-width: 767px){
-	
 	.main-header .top-left{
 		display: none;
 	}
@@ -1065,6 +1070,10 @@
 }
 @media (min-width: 665px) and (max-width: 767px)
 {
+	.book-btn
+	{
+		margin: auto;
+	}
 
 	.promo h3
 	{
@@ -1106,6 +1115,33 @@
 /*index banner*/
 @media (min-width: 665px) and (max-width: 1023px)
 {
+	.form-section
+	{
+		padding:50px 50px 50px 50px ;
+	}
+	.book-btn p
+	{
+		text-align: center;
+		margin-top: -5px;
+		font-size: 10px;
+	}
+	.book-btn
+	{
+		z-index: 1;
+		/*position: absolute;*/
+		/*top: 850%;*/
+		left: -18%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 14px 40px;
+		width: 200;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+		margin-bottom: 10px; 
+	}
 
 	/*.promo-btn
 	{
@@ -1262,7 +1298,7 @@
 
 	.form__field {
 	  	font-family: inherit;
-	  	/*width: 100%;*/
+	  	width: 100%;
 	  	border: 0;
 	  	border-bottom: 1px solid grey;
 	  	outline: 0;
@@ -1622,6 +1658,10 @@
 
 @media (min-width: 320px) and (max-width: 664px)
 {
+	.form-section
+	{
+		padding: 20px;
+	}
 	.by-numbers .sec-aquaria-title .sec-title img
 	{
 		position: relative;

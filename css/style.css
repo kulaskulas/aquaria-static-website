@@ -144,6 +144,11 @@ p{
 	margin:0 auto;
 }
 
+.index-top-text
+{
+	margin-top: 50px;
+}
+
 .large-container{
 	position:static;
 	max-width:1600px;
@@ -8526,7 +8531,39 @@ img{
 }*/
 
 /*IF MOBILE TOGGLE*/
+.form-section
+{
+	padding: 50px 0px 50px 80px;
+}
+
 @media (min-width: 320px) and (max-width: 664px) {
+	.book-btn p
+	{
+		text-align: center;
+	}
+
+	.book-btn
+	{
+		z-index: 1;
+		/*position: absolute;*/
+		/*top: 850%;*/
+		/*left: -18%;*/
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 200px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+		margin-bottom: 10px; 
+	}
+
 	.our-philosophy
 	{
 		margin-top: -30px !important;
@@ -8682,7 +8719,7 @@ img{
 	}
 	.book-select-room
 	{
-		margin-top: 300px;
+		/*margin-top: 300px;*/
 	}
 	.book-select-room .rm-accss
 	{
@@ -9629,7 +9666,7 @@ img{
 
 	.form__field {
 	  	font-family: inherit;
-	  	/*width: 100%;*/
+	  	width: 100%;
 	  	border: 0;
 	  	border-bottom: 1px solid #000000;
 	  	outline: 0;
@@ -10795,6 +10832,10 @@ h3.header-title-txt
 
 @media only screen and (width: 320px)
 {
+	.form-section
+	{
+		margin-top: 80px !important;
+	}
 	/*.book-now-mobile-view
 	{
 		margin-top: 100px !important;
@@ -11787,6 +11828,24 @@ h3.header-title-txt
 		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
 		padding: 15px 42px;
 		width: 200px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+		margin-bottom: 10px; 
+	}
+
+	.book-btn
+	{
+		z-index: 1;
+		/*position: absolute;*/
+		/*top: 850%;*/
+		margin-left: 10px;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 180px;
 		height: 44px;
 		background: #FFFFFF;
 		border-radius: 0;
